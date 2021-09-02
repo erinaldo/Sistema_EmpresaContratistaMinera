@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="CapaDatos.D_AsientoCentroCostoRentabilidadCosto" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="5.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="GROUP" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="QUERY_BIENESDECAMBIO" Hidden="true" />
+      <Field Name="QUERY_BIENESDEUSO" Hidden="true" />
+      <Field Name="QUERY_NOMINA" Hidden="true" />
+      <Field Name="QUERY_OTROSEGRESOS" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AgICAAAIACFAAAAAAAAAAAQAAQABAQAFAAABApABAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\D_AsientoCentroCostoRentabilidadCosto.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_AsientoContable" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="6.75" Width="4.25" />
+    <Members>
+      <Field Name="ACTUALIZAR" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="ELIMINAR1" Hidden="true" />
+      <Field Name="ELIMINAR2" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="INSERTAR" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ACTUALIZAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ELIMINAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_INSERTAR" Hidden="true" />
+      <Field Name="ORDER1" Hidden="true" />
+      <Field Name="ORDER2" Hidden="true" />
+      <Field Name="SELECT1" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+      <Field Name="WHERE3" Hidden="true" />
+      <Field Name="WHERE4" Hidden="true" />
+      <Field Name="WHERE5" Hidden="true" />
+      <Field Name="WHERE6" Hidden="true" />
+      <Field Name="WHERE7" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEEAAACgAAQAEAACAkIAAAAAAEQIBAgAACoABAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\D_AsientoContable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_AsientoManual" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="10" Width="4.25" />
+    <Members>
+      <Field Name="ACTUALIZAR" Hidden="true" />
+      <Field Name="ANULAR" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="INSERTAR" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ACTUALIZAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ANULAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_INSERTAR" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+      <Field Name="WHERE3" Hidden="true" />
+      <Field Name="WHERE4" Hidden="true" />
+      <Field Name="WHERE5" Hidden="true" />
+      <Field Name="WHERE6" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACgAAQAAAACAgIAAAABAAQBBAgAACsABAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\D_AsientoManual.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_AsientoManualDetalle" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="13" Width="4.25" />
+    <Members>
+      <Field Name="ACTUALIZAR" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="INSERTAR" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ACTUALIZAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_INSERTAR" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACgAAQAAAACAgIAAAAAAAQBBAgAACoABAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\D_AsientoManualDetalle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_BalanceSumasSaldos" BaseTypeListCollapsed="true">
+    <Position X="5" Y="12" Width="3.25" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="GROUP" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT" Hidden="true" />
+      <Field Name="SUM_DEBE" Hidden="true" />
+      <Field Name="SUM_HABER" Hidden="true" />
+      <Field Name="WHERE" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACBAAQAAAAAAgIAAAAAAAQBAAAAAAIEBAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\D_BalanceSumasSaldos.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_CentroCosto" BaseTypeListCollapsed="true">
+    <Position X="5" Y="6.75" Width="3.25" />
+    <Members>
+      <Field Name="ACTUALIZAR" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="ELIMINAR" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="INSERTAR" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ACTUALIZAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ELIMINAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_INSERTAR" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+      <Field Name="WHERE3" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEEABACgAAQAAAACAgIAAAAAAEQBBAgAACoABAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\D_CentroCosto.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_ConsumoCentroCosto" BaseTypeListCollapsed="true">
+    <Position X="5" Y="14.25" Width="3.25" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="GROUP" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT" Hidden="true" />
+      <Field Name="WHERE" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACBAAQAAAAAAgIAAAAAAAQBDAAAAAIABAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\D_ConsumoCentroCosto.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_CuentaContable" BaseTypeListCollapsed="true">
+    <Position X="5" Y="16.75" Width="3.25" />
+    <Members>
+      <Field Name="ACTUALIZAR" Hidden="true" />
+      <Field Name="ACTUALIZAR_SALDO" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="INSERTAR" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ACTUALIZAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_INSERTAR" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT1" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+      <Field Name="WHERE3" Hidden="true" />
+      <Field Name="WHERE4" Hidden="true" />
+      <Field Name="WHERE5" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAABACgAAQAAAACAgIAAAAAAAUIBAgAACoABAAE=</HashCode>
+      <FileName>Modulo_Contabilidad\D_CuentaContable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_EstadoFinanciero" BaseTypeListCollapsed="true">
+    <Position X="8.5" Y="16.5" Width="3.5" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM_EGRESO1" Hidden="true" />
+      <Field Name="FROM_EGRESO2" Hidden="true" />
+      <Field Name="FROM_EGRESO3" Hidden="true" />
+      <Field Name="FROM_EGRESO4" Hidden="true" />
+      <Field Name="FROM_INGRESO1" Hidden="true" />
+      <Field Name="FROM_INGRESO2" Hidden="true" />
+      <Field Name="GROUP" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT_EGRESO" Hidden="true" />
+      <Field Name="SELECT_INGRESO" Hidden="true" />
+      <Field Name="WHERE" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAgChBARAAABEAAggAAAIAAQAACAAAEIwBIAA=</HashCode>
+      <FileName>Modulo_Contabilidad\D_EstadoFinanciero.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_EstadoResultados" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="0.5" Width="5.5" />
+    <Members>
+      <Field Name="AND1" Hidden="true" />
+      <Field Name="AND2" Hidden="true" />
+      <Field Name="AND3" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="GROUP" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT" Hidden="true" />
+      <Field Name="WHERE" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AHAAEgAAgCBAAQAAAIAAgACAAAAAAQBAAQAoAIABBAA=</HashCode>
+      <FileName>Modulo_Contabilidad\D_EstadoResultados.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_LibroDiario" BaseTypeListCollapsed="true">
+    <Position X="8.5" Y="14.25" Width="3.5" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT" Hidden="true" />
+      <Field Name="SUM_DEBE" Hidden="true" />
+      <Field Name="SUM_HABER" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+      <Field Name="WHERE3" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAAAQAAAAAAgIAAAAAAAQBAAAAAAIEBAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\D_LibroDiario.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_LibroMayor" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="16" Width="4.25" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT" Hidden="true" />
+      <Field Name="SUM_DEBE" Hidden="true" />
+      <Field Name="SUM_HABER" Hidden="true" />
+      <Field Name="SUM_SALDO_ANTECESOR" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAIACAAAQAAAAAAgIAAAAAAAwBAAAAAAIEBAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\D_LibroMayor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_RentabilidadCentroCosto" BaseTypeListCollapsed="true">
+    <Position X="8.5" Y="6.75" Width="3.5" />
+    <Members>
+      <Field Name="ACTUALIZAR" Hidden="true" />
+      <Field Name="ANULAR" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="INSERTAR" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ACTUALIZAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ANULAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_INSERTAR" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+      <Field Name="WHERE3" Hidden="true" />
+      <Field Name="WHERE4" Hidden="true" />
+      <Field Name="WHERE5" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACgAAQAAAACAgIAAAABAAQBBAgAACsABAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\D_RentabilidadCentroCosto.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_RentabilidadCentroCostoDetalleCosto" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="4" Width="5.75" />
+    <Members>
+      <Field Name="ACTUALIZAR" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="INSERTAR" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ACTUALIZAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_INSERTAR" Hidden="true" />
+      <Field Name="SELECT" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+      <Field Name="WHERE3" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACgAAQAAAACAgIAAAAAAAQBBAgAAAoAAAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\D_RentabilidadCentroCostoDetalleCosto.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_RentabilidadCentroCostoDetalleImporte" BaseTypeListCollapsed="true">
+    <Position X="6.5" Y="4" Width="5.5" />
+    <Members>
+      <Field Name="ACTUALIZAR" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="INSERTAR" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ACTUALIZAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_INSERTAR" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACgAAQAAAACAgIAAAAAAAQBBAgAAAoABAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\D_RentabilidadCentroCostoDetalleImporte.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_ResumenAsientoCompra" BaseTypeListCollapsed="true">
+    <Position X="5" Y="9.75" Width="3.25" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="GROUP" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT" Hidden="true" />
+      <Field Name="SUM_DEBE" Hidden="true" />
+      <Field Name="SUM_HABER" Hidden="true" />
+      <Field Name="WHERE" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACBAAQAAAAAAgIAAAAAAAQBAAAAAAIEBAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\D_ResumenAsientoCompra.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_ResumenAsientoSueldo" BaseTypeListCollapsed="true">
+    <Position X="8.5" Y="12" Width="3.5" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="GROUP" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT" Hidden="true" />
+      <Field Name="SUM_DEBE" Hidden="true" />
+      <Field Name="SUM_HABER" Hidden="true" />
+      <Field Name="WHERE" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACBAAQAAAAAAgIAAAAAAAQBAAAAAAIEBAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\D_ResumenAsientoSueldo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_ResumenAsientoVenta" BaseTypeListCollapsed="true">
+    <Position X="8.5" Y="9.75" Width="3.5" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="GROUP" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT" Hidden="true" />
+      <Field Name="SUM_DEBE" Hidden="true" />
+      <Field Name="SUM_HABER" Hidden="true" />
+      <Field Name="WHERE" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACBAAQAAAAAAgIAAAAAAAQBAAAAAAIEBAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\D_ResumenAsientoVenta.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

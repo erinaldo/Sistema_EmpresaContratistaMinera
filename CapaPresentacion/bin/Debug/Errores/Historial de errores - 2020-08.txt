@@ -1,0 +1,18 @@
+2020-08-12(06:05:06) Mensaje: Error-A006UPDATE: Imposible acceder al archivo requerido.
+No se pudo obtener la versión de la actualización del sistema.
+Verifique su conexión a internet. Excepción: Se ha terminado la conexión: El servidor ha cometido una infracción de protocolo.
+2020-08-12(07:01:22) Mensaje: Error-004CNX: La conexión con el Servidor ha fallado. Excepción: Unable to connect to any of the specified MySQL hosts.
+2020-08-12(07:01:39) Mensaje: Error-004CNX: La conexión con el Servidor ha fallado. Excepción: Unable to connect to any of the specified MySQL hosts.
+2020-08-12(07:03:11) Mensaje: Error-A006UPDATE: Imposible acceder al archivo requerido.
+No se pudo obtener la versión de la actualización del sistema.
+Verifique su conexión a internet. Excepción: Se ha terminado la conexión: El servidor ha cometido una infracción de protocolo.
+2020-08-12(07:22:18) Mensaje: Error-A006UPDATE: Imposible acceder al archivo requerido.
+No se pudo obtener la versión de la actualización del sistema.
+Verifique su conexión a internet. Excepción: Se ha terminado la conexión: El servidor ha cometido una infracción de protocolo.
+2020-08-12(07:22:48) Mensaje: Error-S002COR: Hay un conflicto con el Servidor de Correo. Excepción: El servidor SMTP requiere una conexión segura o el cliente no se autenticó. La respuesta del servidor fue: 5.7.0 Authentication Required. Learn more at
+2020-08-12(07:24:01) Mensaje: Error-A006UPDATE: Imposible acceder al archivo requerido.
+No se pudo obtener la versión de la actualización del sistema.
+Verifique su conexión a internet. Excepción: Se ha terminado la conexión: El servidor ha cometido una infracción de protocolo.
+2020-08-12(07:30:14) Mensaje: Error-A006UPDATE: Imposible acceder al archivo requerido.
+No se pudo obtener la versión de la actualización del sistema.
+Verifique su conexión a internet. Excepción: Se ha terminado la conexión: El servidor ha cometido una infracción de protocolo.

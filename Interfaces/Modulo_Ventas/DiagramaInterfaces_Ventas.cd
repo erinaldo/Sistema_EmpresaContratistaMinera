@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Interface Name="Interfaces.ICliente">
+    <Position X="4.5" Y="0.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAEAAAAgAAAAAAAAAABAAAACgAAAAE=</HashCode>
+      <FileName>Modulo_Ventas\ICliente.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IClienteCtaCte">
+    <Position X="4.5" Y="3.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Modulo_Ventas\ICtaCteCliente.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IFacturaACobrar">
+    <Position X="4.5" Y="4.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Modulo_Ventas\IFacturaACobrar.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IVenta">
+    <Position X="0.5" Y="0.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAEgAAAAAAAAAAAgCAAAAAAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_Ventas\IVenta.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IVentaDetalle">
+    <Position X="0.5" Y="3.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAAAAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_Ventas\IVentaDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,24 @@
+2018-09-21(08:39:21) Mensaje: Error-A006ARCHIVO: Hay un conflicto en la lectura del archivo version.sys Excepción: No se puede encontrar una parte de la ruta de acceso 'D:\CodigoFuente_Empreminsa\Proyecto\Actualizador\bin\Debug\CodigoFuente_Empreminsa\Proyecto\CapaPresentacion\bin\DebugUpdate\version.sys'.
+2018-09-21(08:39:34) Mensaje: Error-A006ARCHIVO: Hay un conflicto en la lectura del archivo version.sys Excepción: No se puede encontrar una parte de la ruta de acceso 'D:\CodigoFuente_Empreminsa\Proyecto\Actualizador\bin\Debug\CodigoFuente_Empreminsa\Proyecto\CapaPresentacion\bin\DebugUpdateversion.sys'.
+2018-09-21(08:43:15) Mensaje: Error-A006ARCHIVO: Hay un conflicto en la lectura del archivo version.sys Excepción: No se pudo encontrar el archivo 'D:\CodigoFuente_Empreminsa\Proyecto\CapaPresentacion\bin\Debug\Updateversion.sys'.
+2018-09-21(09:02:41) Mensaje: Error-A012UPDATE: Imposible acceder al archivo requerido.
+No se pudo publicar la actualización del sistema.
+Verifique su conexión a internet. Excepción: Se ha terminado la conexión: Error inesperado de recepción.
+2018-09-21(09:06:55) Mensaje: Error-A012UPDATE: Imposible acceder al archivo requerido.
+No se pudo publicar la actualización del sistema.
+Verifique su conexión a internet. Excepción: Se ha terminado la conexión: Error inesperado de recepción.
+2018-09-21(09:19:41) Mensaje: Error-A012UPDATE: Imposible acceder al archivo requerido.
+No se pudo publicar la actualización del sistema.
+Verifique su conexión a internet. Excepción: Se ha terminado la conexión: Error inesperado de recepción.
+2018-09-21(09:25:48) Mensaje: Error-A012UPDATE: Imposible acceder al archivo requerido.
+No se pudo publicar la actualización del sistema.
+Verifique su conexión a internet. Excepción: El URI solicitado no es válido para este comando FTP.
+2018-09-21(09:52:03) Mensaje: Error-A012UPDATE: Imposible acceder al archivo requerido.
+No se pudo publicar la actualización del sistema.
+Verifique su conexión a internet. Excepción: Se ha terminado la conexión: Error inesperado de recepción.
+2018-09-21(10:33:19) Mensaje: Error-A012UPDATE: Imposible acceder al archivo requerido.
+No se pudo publicar la actualización del sistema.
+Verifique su conexión a internet. Excepción: Se ha terminado la conexión: Error inesperado de recepción.
+2018-09-21(10:50:24) Mensaje: Error-A012UPDATE: Imposible acceder al archivo requerido.
+No se pudo publicar la actualización del sistema.
+Verifique su conexión a internet. Excepción: Se ha terminado la conexión: Error inesperado de recepción.

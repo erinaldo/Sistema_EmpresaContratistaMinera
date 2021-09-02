@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="CapaNegocio.N_Compra" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="3.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAECAEgCIAAAAAAAAAgCAAAAAAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_Compras\N_Compra.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_CompraDetalle" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="0.5" Width="4.25" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAAAAAAAAgAgAAAAAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_Compras\N_CompraDetalle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_FacturaAPagar" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.75" Width="3.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACBAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Modulo_Compras\N_FacturaAPagar.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_OrdenCompra" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="3.5" Width="4.25" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAAAAAQAAgAAAAABAAAABAAAACgAAAQA=</HashCode>
+      <FileName>Modulo_Compras\N_OrdenCompra.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_OrdenCompraDetalle" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="6.75" Width="4.25" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAAAgAAAAgAgAAAAAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_Compras\N_OrdenCompraDetalle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_Proveedor" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="7.75" Width="3.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAAAEAAAAgAAAAAAQAAABAAAACgAAAAE=</HashCode>
+      <FileName>Modulo_Compras\N_Proveedor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_ProveedorCtaCte" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="5.75" Width="3.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAAAAAAAAAAAAAAAAABAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Modulo_Compras\N_ProveedorCtaCte.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

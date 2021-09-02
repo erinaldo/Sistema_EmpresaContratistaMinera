@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="CapaNegocio.N_AsientoCentroCostoRentabilidadCosto" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="5.5" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\N_AsientoCentroCostoRentabilidadCosto.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_AsientoContable" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2.25" Width="5.5" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAAAEAAAAkAAAAAAAAAABAAAACgAAAIA=</HashCode>
+      <FileName>Modulo_Contabilidad\N_AsientoContable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_AsientoManual" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="11.75" Width="3.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAAAAAAAAgAAAAAFAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\N_AsientoManual.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_AsientoManualDetalle" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="10.75" Width="5.5" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAAAAgAAAgAAAAAAAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\N_AsientoManualDetalle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_BalanceSumasSaldos" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="0.5" Width="3.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAAAAAAAAAAAAAAAAAAEAAAAAAAAAABAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\N_BalanceSumasSaldos.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_CentroCosto" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="0.5" Width="3" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAABACIAAAAAAAAAgAAAEAAAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\N_CentroCosto.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_ConsumoCentroCosto" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="2.5" Width="3.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\N_ConsumoCentroCosto.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_CuentaContable" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="11" Width="3" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAABACIAAAAAAAAAgAAAAAAAAAABAAAACgAAAAE=</HashCode>
+      <FileName>Modulo_Contabilidad\N_CuentaContable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_EstadoFinanciero" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="3.5" Width="3" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Modulo_Contabilidad\N_EstadoFinanciero.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_EstadoResultados" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="7.25" Width="3" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\N_EstadoResultados.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_LibroDiario" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="5.25" Width="3" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\N_LibroDiario.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_LibroMayor" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="9" Width="3" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAAAIAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\N_LibroMayor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_RentabilidadCentroCosto" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="4.75" Width="3.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAAAAAAAAgAAAAABAAAABAAEACgAAAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\N_RentabilidadCentroCosto.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_RentabilidadCentroCostoDetalleCosto" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="5.5" Width="5.5" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAAAAAAAAgAAAAAAAgAABAAAAAgAAAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\N_RentabilidadCentroCostoDetalleCosto.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_RentabilidadCentroCostoDetalleImporte" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="8" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIABAAAAAAAgAAAAAAAAAABAAAAAgAAAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\N_RentabilidadCentroCostoDetalleImporte.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_ResumenAsientoCompra" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="9.75" Width="3.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAgAAABAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\N_ResumenAsientoCompra.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_ResumenAsientoSueldo" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="7.75" Width="3.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAAAAAAAAAAAAAAAAAACAAAAAAAAAABAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\N_ResumenAsientoSueldo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_ResumenAsientoVenta" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="13.5" Width="5.5" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAiAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\N_ResumenAsientoVenta.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

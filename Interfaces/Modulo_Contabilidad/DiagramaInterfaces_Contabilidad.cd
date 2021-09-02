@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Interface Name="Interfaces.IAsientoCentroCostoRentabilidadCosto">
+    <Position X="0.5" Y="0.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\IAsientoCentroCostoRentabilidadCosto.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IAsientoContable">
+    <Position X="0.5" Y="4.25" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAEAAAAkAAAAAAAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\IAsientoContable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IAsientoManual">
+    <Position X="0.5" Y="6.75" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAABAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\IAsientoManual.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IAsientoManualDetalle">
+    <Position X="0.5" Y="2" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAAAAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\IAsientoManualDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IBalanceSumasSaldos">
+    <Position X="5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\IBalanceSumasSaldos.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.ICentroCosto">
+    <Position X="5" Y="2" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAABAAAAAAAAAAAAgAAAAAAAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\ICentroCosto.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IConsumoCentroCosto">
+    <Position X="8.25" Y="3" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\IConsumoCentroCosto.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.ICuentaContable">
+    <Position X="8.25" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAABAAAAAAAAAAAAgAAAAAAAAAABAAAACgAAAAE=</HashCode>
+      <FileName>Modulo_Contabilidad\ICuentaContable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IEstadoFinanciero">
+    <Position X="5" Y="4.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\IEstadoFinanciero.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IEstadoResultados">
+    <Position X="5" Y="5.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\IEstadoResultados.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.ILibroDiario">
+    <Position X="5" Y="8.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\ILibroDiario.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.ILibroMayor">
+    <Position X="5" Y="6.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\ILibroMayor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IRentabilidadCentroCosto">
+    <Position X="8.25" Y="7.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAABAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\IRentabilidadCentroCosto.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IRentabilidadCentroCostoDetalleCosto">
+    <Position X="0.5" Y="10.5" Width="5.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAAAAAAABAAAAAgAAAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\IRentabilidadCentroCostoDetalleCosto.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IRentabilidadCentroCostoDetalleImporte">
+    <Position X="6.25" Y="10.5" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAAAAAAABAAAAAgAAAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\IRentabilidadCentroCostoDetalleImporte.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IResumenAsientoCompra">
+    <Position X="8.25" Y="4.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\IResumenAsientoCompra.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IResumenAsientoSueldo">
+    <Position X="8.25" Y="6.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\IResumenAsientoSueldo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IResumenAsientoVenta">
+    <Position X="0.5" Y="9" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\IResumenAsientoVenta.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

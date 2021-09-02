@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Entidades.ChequeAPagar">
+    <Position X="0.5" Y="11" Width="3" />
+    <Members>
+      <Property Name="ChequeEmision" Hidden="true" />
+      <Property Name="ChequeMonto" Hidden="true" />
+      <Property Name="ChequeNro" Hidden="true" />
+      <Property Name="ChequeVto" Hidden="true" />
+      <Property Name="Denominacion" Hidden="true" />
+      <Property Name="Descripcion" Hidden="true" />
+      <Property Name="IdAsiento" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACAAAAEQAAAAAgBAAQIQAAAAAAABAABACg=</HashCode>
+      <FileName>Modulo_Tesoreria\ChequeAPagar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Cobranza" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="0.5" Width="3" />
+    <Members>
+      <Property Name="Banco" Hidden="true" />
+      <Property Name="CbteFecha" Hidden="true" />
+      <Property Name="CbteNro" Hidden="true" />
+      <Property Name="CbteTPV" Hidden="true" />
+      <Property Name="Cliente" Hidden="true" />
+      <Property Name="Concepto" Hidden="true" />
+      <Property Name="CtaBancariaNro" Hidden="true" />
+      <Property Name="CtaBancariaTipo" Hidden="true" />
+      <Property Name="CuentaContable" Hidden="true" />
+      <Property Name="EdicionFecha" Hidden="true" />
+      <Property Name="EdicionUsuarioDenominacion" Hidden="true" />
+      <Property Name="EdicionUsuarioId" Hidden="true" />
+      <Property Name="Estado" Hidden="true" />
+      <Property Name="Id" Hidden="true" />
+      <Property Name="Iva105" Hidden="true" />
+      <Property Name="Iva210" Hidden="true" />
+      <Property Name="Iva270" Hidden="true" />
+      <Property Name="MedioChequeVto" Hidden="true" />
+      <Property Name="MedioNro" Hidden="true" />
+      <Property Name="MedioPago" Hidden="true" />
+      <Property Name="MontoBruto" Hidden="true" />
+      <Property Name="NroLiquidacion" Hidden="true" />
+      <Property Name="RetencionFondoMinero" Hidden="true" />
+      <Property Name="RetencionGanancia" Hidden="true" />
+      <Property Name="RetencionIIBB" Hidden="true" />
+      <Property Name="RetencionIVA" Hidden="true" />
+      <Property Name="RetencionLH" Hidden="true" />
+      <Property Name="RetencionSUSS" Hidden="true" />
+      <Property Name="TotalNeto" Hidden="true" />
+      <Property Name="TotalRetencion" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEoiFBABEgiCgBARgIDAgAKQAkigoECBhCAA4wAQVsg=</HashCode>
+      <FileName>Modulo_Tesoreria\Cobranza.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.CobranzaDetalle">
+    <Position X="7" Y="0.5" Width="2.75" />
+    <Members>
+      <Property Name="Cobranza" Hidden="true" />
+      <Property Name="Id" Hidden="true" />
+      <Property Name="Venta" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAQAJAAAABAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\CobranzaDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Conciliacion">
+    <Position X="7" Y="2.75" Width="2.75" />
+    <Members>
+      <Property Name="Saldo" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBAAAAAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\Conciliacion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Fondo">
+    <Position X="7" Y="4.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\Fondo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.MovimientoFondo" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="3" />
+    <Members>
+      <Property Name="CbteFecha" Hidden="true" />
+      <Property Name="CbteNro" Hidden="true" />
+      <Property Name="CbteTPV" Hidden="true" />
+      <Property Name="CuentaContableDestino" Hidden="true" />
+      <Property Name="CuentaContableOrigen" Hidden="true" />
+      <Property Name="Denominacion" Hidden="true" />
+      <Property Name="EdicionFecha" Hidden="true" />
+      <Property Name="EdicionUsuarioDenominacion" Hidden="true" />
+      <Property Name="EdicionUsuarioId" Hidden="true" />
+      <Property Name="Estado" Hidden="true" />
+      <Property Name="Id" Hidden="true" />
+      <Property Name="MedioChequeVto" Hidden="true" />
+      <Property Name="MedioNro" Hidden="true" />
+      <Property Name="MedioPago" Hidden="true" />
+      <Property Name="Monto" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAACBAABAAAAABARgABAgAEJAEKIIEQBhCAAIAAREAg=</HashCode>
+      <FileName>Modulo_Tesoreria\MovimientoFondo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.PagoNomina" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="5.25" Width="3" />
+    <Members>
+      <Property Name="Banco" Hidden="true" />
+      <Property Name="CbteFecha" Hidden="true" />
+      <Property Name="CbteNro" Hidden="true" />
+      <Property Name="CbteTPV" Hidden="true" />
+      <Property Name="CentroCosto" Hidden="true" />
+      <Property Name="Concepto" Hidden="true" />
+      <Property Name="CtaBancariaNro" Hidden="true" />
+      <Property Name="CtaBancariaTipo" Hidden="true" />
+      <Property Name="CuentaContableDestino" Hidden="true" />
+      <Property Name="CuentaContableOrigen" Hidden="true" />
+      <Property Name="EdicionFecha" Hidden="true" />
+      <Property Name="EdicionUsuarioDenominacion" Hidden="true" />
+      <Property Name="EdicionUsuarioId" Hidden="true" />
+      <Property Name="Estado" Hidden="true" />
+      <Property Name="Id" Hidden="true" />
+      <Property Name="Legajo" Hidden="true" />
+      <Property Name="MedioChequeVto" Hidden="true" />
+      <Property Name="MedioNro" Hidden="true" />
+      <Property Name="MedioPago" Hidden="true" />
+      <Property Name="MontoPagado" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAgCBAABAISAgBAVgADAhAIBAEqCIEQBhCAAIgAQEAg=</HashCode>
+      <FileName>Modulo_Tesoreria\PagoNomina.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.PagoOtro" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="8" Width="3" />
+    <Members>
+      <Property Name="Banco" Hidden="true" />
+      <Property Name="CbteFecha" Hidden="true" />
+      <Property Name="CbteNro" Hidden="true" />
+      <Property Name="CbteTPV" Hidden="true" />
+      <Property Name="CentroCosto" Hidden="true" />
+      <Property Name="Concepto" Hidden="true" />
+      <Property Name="CtaBancariaNro" Hidden="true" />
+      <Property Name="CtaBancariaTipo" Hidden="true" />
+      <Property Name="CuentaContableDestino" Hidden="true" />
+      <Property Name="CuentaContableOrigen" Hidden="true" />
+      <Property Name="Denominacion" Hidden="true" />
+      <Property Name="EdicionFecha" Hidden="true" />
+      <Property Name="EdicionUsuarioDenominacion" Hidden="true" />
+      <Property Name="EdicionUsuarioId" Hidden="true" />
+      <Property Name="Estado" Hidden="true" />
+      <Property Name="Id" Hidden="true" />
+      <Property Name="MedioChequeVto" Hidden="true" />
+      <Property Name="MedioNro" Hidden="true" />
+      <Property Name="MedioPago" Hidden="true" />
+      <Property Name="MontoPagado" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAgCBAABAICAgBAVgADAgAIBAEqKIEQBhCAAIgAREAg=</HashCode>
+      <FileName>Modulo_Tesoreria\PagoOtro.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.PagoProveedor" BaseTypeListCollapsed="true">
+    <Position X="7" Y="8.5" Width="2.75" />
+    <Members>
+      <Property Name="Banco" Hidden="true" />
+      <Property Name="CbteFecha" Hidden="true" />
+      <Property Name="CbteNro" Hidden="true" />
+      <Property Name="CbteTPV" Hidden="true" />
+      <Property Name="Concepto" Hidden="true" />
+      <Property Name="CtaBancariaNro" Hidden="true" />
+      <Property Name="CtaBancariaTipo" Hidden="true" />
+      <Property Name="CuentaContable" Hidden="true" />
+      <Property Name="EdicionFecha" Hidden="true" />
+      <Property Name="EdicionUsuarioDenominacion" Hidden="true" />
+      <Property Name="EdicionUsuarioId" Hidden="true" />
+      <Property Name="Estado" Hidden="true" />
+      <Property Name="Id" Hidden="true" />
+      <Property Name="MedioChequeVto" Hidden="true" />
+      <Property Name="MedioNro" Hidden="true" />
+      <Property Name="MedioPago" Hidden="true" />
+      <Property Name="MontoPagado" Hidden="true" />
+      <Property Name="Proveedor" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAgCBAABAgCAgBAdgADAgAIBAEiAIEABhCAAYgAQEAg=</HashCode>
+      <FileName>Modulo_Tesoreria\PagoProveedor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.PagoProveedorDetalle">
+    <Position X="7" Y="6.25" Width="2.75" />
+    <Members>
+      <Property Name="Compra" Hidden="true" />
+      <Property Name="Id" Hidden="true" />
+      <Property Name="PagoProveedor" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAEABAAAEAAAAAgAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\PagoProveedorDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

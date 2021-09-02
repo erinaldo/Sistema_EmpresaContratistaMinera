@@ -1,0 +1,16 @@
+C:\Proyecto\Interfaces\bin\Debug\Interfaces.dll
+C:\Proyecto\Interfaces\bin\Debug\Interfaces.pdb
+C:\Proyecto\Interfaces\bin\Debug\Entidades.dll
+C:\Proyecto\Interfaces\bin\Debug\Entidades.pdb
+C:\Proyecto\Interfaces\obj\Debug\Interfaces.csprojResolveAssemblyReference.cache
+C:\Proyecto\Interfaces\obj\Debug\Interfaces.csproj.CoreCompileInputs.cache
+C:\Proyecto\Interfaces\obj\Debug\Interfaces.dll
+C:\Proyecto\Interfaces\obj\Debug\Interfaces.pdb
+D:\CodigoFuente_Empreminsa\Proyecto\Interfaces\bin\Debug\Interfaces.dll
+D:\CodigoFuente_Empreminsa\Proyecto\Interfaces\bin\Debug\Interfaces.pdb
+D:\CodigoFuente_Empreminsa\Proyecto\Interfaces\bin\Debug\Entidades.dll
+D:\CodigoFuente_Empreminsa\Proyecto\Interfaces\bin\Debug\Entidades.pdb
+D:\CodigoFuente_Empreminsa\Proyecto\Interfaces\obj\Debug\Interfaces.csprojResolveAssemblyReference.cache
+D:\CodigoFuente_Empreminsa\Proyecto\Interfaces\obj\Debug\Interfaces.csproj.CoreCompileInputs.cache
+D:\CodigoFuente_Empreminsa\Proyecto\Interfaces\obj\Debug\Interfaces.dll
+D:\CodigoFuente_Empreminsa\Proyecto\Interfaces\obj\Debug\Interfaces.pdb

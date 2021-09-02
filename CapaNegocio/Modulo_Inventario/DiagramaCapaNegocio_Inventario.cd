@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="CapaNegocio.N_Articulo" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="13" Width="4.5" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAAAEIAAAgAAAAAEAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_Inventario\N_Articulo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_ConsumoStock" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="4" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAAAAAAAAgEAAAABAAAABAAAAAgAAAAA=</HashCode>
+      <FileName>Modulo_Inventario\N_ConsumoStock.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_ConsumoStockDetalle" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="0.5" Width="4.5" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAAAAAAAAgAAABAAAAAABAAAAAgAAAAA=</HashCode>
+      <FileName>Modulo_Inventario\N_ConsumoStockDetalle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_ControlStock" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.25" Width="4" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAAAAABAAgAAAAABAAAABAAAAAgAAAAA=</HashCode>
+      <FileName>Modulo_Inventario\N_ControlStock.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_ControlStockDetalle" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="3" Width="4.5" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAAAAAAAAgAAAAAAAAAABAAAAAgAAABA=</HashCode>
+      <FileName>Modulo_Inventario\N_ControlStockDetalle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_FormularioR29911" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="6" Width="4" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAAAgAAAAgAAAAABAAAABAAAAAgAAAAA=</HashCode>
+      <FileName>Modulo_Inventario\N_FormularioR29911.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_FormularioR29911Detalle" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="5.5" Width="4.5" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAAAAAAAAgAAAAAAAEAABAAAAAgAAAAA=</HashCode>
+      <FileName>Modulo_Inventario\N_FormularioR29911Detalle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_MovimientoStock" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="8.75" Width="4" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAAAAAAAAgAAAAABAAAABAACAAgAAAAA=</HashCode>
+      <FileName>Modulo_Inventario\N_MovimientoStock.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_MovimientoStockDetalle" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="8" Width="4.5" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACICAAAAAAAAgAAAAAAAAAABAAAAAgAAAAA=</HashCode>
+      <FileName>Modulo_Inventario\N_MovimientoStockDetalle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_SuministracionIEPP" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="11.5" Width="4" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAAAAAAAAgAAAAABABAABAAAAAgAAAAA=</HashCode>
+      <FileName>Modulo_Inventario\N_SuministracionIEPP.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_SuministracionIEPPDetalle" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="10.5" Width="4.5" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAAAAAAAAgAQAAAAAAAABAAAAAgAAAAA=</HashCode>
+      <FileName>Modulo_Inventario\N_SuministracionIEPPDetalle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

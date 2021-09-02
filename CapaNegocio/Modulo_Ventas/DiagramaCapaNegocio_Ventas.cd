@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="CapaNegocio.N_Cliente" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="3" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAAAEQAAAgAAAAAAAAAABAAAACgAAAAE=</HashCode>
+      <FileName>Modulo_Ventas\N_Cliente.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_ClienteCtaCte" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="0.5" Width="3.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAFAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Modulo_Ventas\N_ClienteCtaCte.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_FacturaACobrar" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.75" Width="3" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAAAAAAAAAAAAAAAAIAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Modulo_Ventas\N_FacturaACobrar.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_Venta" BaseTypeListCollapsed="true">
+    <Position X="3.75" Y="2.5" Width="3.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEAAEAAEgCIAAAAAAAAAgCAAAAAAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_Ventas\N_Venta.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_VentaDetalle" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="5.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAAAAAAAAgAgAIAAAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_Ventas\N_VentaDetalle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

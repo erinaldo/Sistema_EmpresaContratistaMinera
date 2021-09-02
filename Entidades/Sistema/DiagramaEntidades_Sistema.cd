@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Entidades.Sistema.Alerta">
+    <Position X="0.5" Y="9.5" Width="2.75" />
+    <Members>
+      <Property Name="Denominacion" Hidden="true" />
+      <Property Name="EdicionFecha" Hidden="true" />
+      <Property Name="EdicionUsuarioDenominacion" Hidden="true" />
+      <Property Name="EdicionUsuarioId" Hidden="true" />
+      <Property Name="Estado" Hidden="true" />
+      <Property Name="FechaVencimiento" Hidden="true" />
+      <Property Name="Id" Hidden="true" />
+      <Property Name="origen_id" Hidden="true" />
+      <Property Name="TipoAlerta" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAACBgAAAAAAQAAQAAJQAAAAAEAIAAAAAAAgIAARFAg=</HashCode>
+      <FileName>Sistema\Alerta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Sistema.Auditoria">
+    <Position X="6.25" Y="0.5" Width="2" />
+    <Members>
+      <Property Name="Denominacion" Hidden="true" />
+      <Property Name="Documento" Hidden="true" />
+      <Property Name="Fecha" Hidden="true" />
+      <Property Name="Id" Hidden="true" />
+      <Property Name="Modulo" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>BAADAAAAAAAAAAEAAABAAAAAAAAIAAACAAAACAAJAAA=</HashCode>
+      <FileName>Sistema\Auditoria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Sistema.CredencialFTP">
+    <Position X="3.5" Y="0.5" Width="2.5" />
+    <Members>
+      <Property Name="FtpClave" Hidden="true" />
+      <Property Name="FtpServidor" Hidden="true" />
+      <Property Name="FtpUsuario" Hidden="true" />
+      <Property Name="Id" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAASAABAAAAAAAAAgAFAAAAABAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sistema\CredencialFTP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Sistema.MiEmpresa">
+    <Position X="0.5" Y="4.5" Width="2.75" />
+    <Members>
+      <Property Name="Celular" Hidden="true" />
+      <Property Name="Cp" Hidden="true" />
+      <Property Name="Cuit" Hidden="true" />
+      <Property Name="Denominacion" Hidden="true" />
+      <Property Name="Distrito" Hidden="true" />
+      <Property Name="Domicilio" Hidden="true" />
+      <Property Name="EdicionFecha" Hidden="true" />
+      <Property Name="EdicionUsuarioDenominacion" Hidden="true" />
+      <Property Name="EdicionUsuarioId" Hidden="true" />
+      <Property Name="Email" Hidden="true" />
+      <Property Name="Id" Hidden="true" />
+      <Property Name="InicioDeActividad" Hidden="true" />
+      <Property Name="Iva" Hidden="true" />
+      <Property Name="NombreFantasia" Hidden="true" />
+      <Property Name="NroIngresosBrutos" Hidden="true" />
+      <Property Name="PaginaWeb" Hidden="true" />
+      <Property Name="Provincia" Hidden="true" />
+      <Property Name="Telefono" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIBCQAAACKAAACAYEAxAABAAKEwIAIAAAACgIgiREgE=</HashCode>
+      <FileName>Sistema\MiEmpresa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Sistema.OpcionGeneral" BaseTypeListCollapsed="true">
+    <Position X="3.5" Y="3" Width="4.75" />
+    <Members>
+      <Property Name="AlertaAntecedentes" Hidden="true" />
+      <Property Name="AlertaCursoInduccion" Hidden="true" />
+      <Property Name="AlertaCursoIzaje" Hidden="true" />
+      <Property Name="AlertaEntrevista" Hidden="true" />
+      <Property Name="AlertaExamenMedico" Hidden="true" />
+      <Property Name="AlertaLicenciaConducir" Hidden="true" />
+      <Property Name="EdicionFecha" Hidden="true" />
+      <Property Name="EdicionUsuarioDenominacion" Hidden="true" />
+      <Property Name="EdicionUsuarioId" Hidden="true" />
+      <Property Name="EstadoResultado_IIBBTasa" Hidden="true" />
+      <Property Name="EstadoResultado_PrevisionImpGananciaTasa" Hidden="true" />
+      <Property Name="EstadoResultado_PrevisionSACDesempleoTasa" Hidden="true" />
+      <Property Name="Id" Hidden="true" />
+      <Property Name="LiquidacionSueldo_AporteTasa" Hidden="true" />
+      <Property Name="LiquidacionSueldo_ArtFijo" Hidden="true" />
+      <Property Name="LiquidacionSueldo_ArtTasa" Hidden="true" />
+      <Property Name="LiquidacionSueldo_ContribTiempoCompletoTasa" Hidden="true" />
+      <Property Name="LiquidacionSueldo_ContribTiempoParcialTasa" Hidden="true" />
+      <Property Name="LiquidacionSueldo_SCVO" Hidden="true" />
+      <Property Name="PtoVta" Hidden="true" />
+      <Property Name="RegistroAnulacion" Hidden="true" />
+      <Property Name="RegistroModificion" Hidden="true" />
+      <Property Name="VigenciaAntecedentes" Hidden="true" />
+      <Property Name="VigenciaCurriculumVitae" Hidden="true" />
+      <Property Name="VigenciaCursoInduccion" Hidden="true" />
+      <Property Name="VigenciaCursoIzaje" Hidden="true" />
+      <Property Name="VigenciaExamenMedico" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>RAACAAABEBIhFBAwrBBoECJCAEERACJRAAiCIVEQEAA=</HashCode>
+      <FileName>Sistema\OpcionGeneral.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.Sistema.Privilegio">
+    <Position X="3.5" Y="10" Width="4.75" />
+    <Members>
+      <Property Name="Denominacion" Hidden="true" />
+      <Property Name="Id" Hidden="true" />
+      <Property Name="Permiso" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAACAABAAAAAAAAAAABAAAAAAAAIAAAQAAAAAAABAAA=</HashCode>
+      <FileName>Sistema\Privilegio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Usuario" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <Members>
+      <Property Name="AlertaFacturacion" Hidden="true" />
+      <Property Name="AlertaInventario" Hidden="true" />
+      <Property Name="AlertaRRHH" Hidden="true" />
+      <Property Name="Contrasenia" Hidden="true" />
+      <Property Name="EdicionFecha" Hidden="true" />
+      <Property Name="EdicionUsuarioDenominacion" Hidden="true" />
+      <Property Name="EdicionUsuarioId" Hidden="true" />
+      <Property Name="EmailRecuperacion" Hidden="true" />
+      <Property Name="Id" Hidden="true" />
+      <Property Name="Legajo" Hidden="true" />
+      <Property Name="ListaDePrivilegios" Hidden="true" />
+      <Property Name="TipoUsuario" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEACgAoAAAQAEAASiAhgBEAAAEAAAAAAAAEAYAASEAA=</HashCode>
+      <FileName>Sistema\Usuario.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

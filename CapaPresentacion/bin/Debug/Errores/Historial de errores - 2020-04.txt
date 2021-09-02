@@ -1,0 +1,1 @@
+2020-04-03(11:19:06) Mensaje: Error-004CNX: La conexión con el Servidor ha fallado. Excepción: Unable to connect to any of the specified MySQL hosts.

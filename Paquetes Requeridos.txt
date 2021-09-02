@@ -1,0 +1,10 @@
+
+Paquetes Requeridos: 
+	*Respetar el orden de instalación
+	
+1.	iTextSharp 5.5.13 (bliblioteca)
+2.	ClosedXML 0.93.1 (bliblioteca / CapaPresentacion)
+3.	DocX v1.2.1 (bliblioteca)
+4.	MySqlBackup.NET 2.0.12.1 (CapaDatos)
+5.	MySql.Data 8.0.12 (CapaDatos)
+6.	BarcodeLib v2.2.1

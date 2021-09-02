@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Interface Name="Interfaces.Sistema.IAlerta">
+    <Position X="0.5" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAEAAAAgAAAAAAAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Sistema\IAlerta.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.Sistema.IAuditoria">
+    <Position X="4.5" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEBAAAAAAAAAAAAAAgAAAAAAAAAABAAAAAgAAAAA=</HashCode>
+      <FileName>Sistema\IAuditoria.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.Sistema.ICredencialFTP">
+    <Position X="0.5" Y="2.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Sistema\ICredencialFTP.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.Sistema.IMiEmpresa">
+    <Position X="0.5" Y="4" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAA=</HashCode>
+      <FileName>Sistema\IMiEmpresa.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.Sistema.IMonitor">
+    <Position X="4.5" Y="2.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAADAAAAABAACAAABAAAhAAAACAAAAQAAA=</HashCode>
+      <FileName>Sistema\IMonitor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.Sistema.IOpcionGeneral">
+    <Position X="0.5" Y="5.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAA=</HashCode>
+      <FileName>Sistema\IOpcionGeneral.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.Sistema.IPrivilegio">
+    <Position X="0.5" Y="7" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAgAABAAAAAAAAAAAAAAAIAQIAAAAABAAAACAAAAAA=</HashCode>
+      <FileName>Sistema\IPrivilegio.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IUsuario">
+    <Position X="4.5" Y="5.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAEAAAAEAAAAgAAAAAAAAAAJAAAACgAAAAA=</HashCode>
+      <FileName>Sistema\IUsuario.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

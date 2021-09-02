@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Biblioteca.Ayudantes.Actualizacion">
+    <Position X="8.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>EAEAAAACAgAgAgAJAAAAAQACAChAQAgBAAAAAAAAAAI=</HashCode>
+      <FileName>Ayudantes\Actualizacion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Biblioteca.Ayudantes.Archivo">
+    <Position X="5" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAQAAIAACAAAAAkAACAKAABgEACAA=</HashCode>
+      <FileName>Ayudantes\Archivo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Biblioteca.Ayudantes.Captcha">
+    <Position X="8.5" Y="5.25" Width="2.75" />
+    <Members>
+      <Property Name="CodigoCaptcha" Hidden="true" />
+      <Property Name="ImagenCaptcha" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAEAABAAAIAAAAAAgAAAABAAAAA=</HashCode>
+      <FileName>Ayudantes\Captcha.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Biblioteca.Ayudantes.Correo">
+    <Position X="8.5" Y="7.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ayudantes\Correo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Biblioteca.Ayudantes.Encriptacion">
+    <Position X="8.5" Y="9.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Ayudantes\Encriptacion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Biblioteca.Ayudantes.Fecha">
+    <Position X="5" Y="4.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAQIAAAAgAAiAAEAAAAAAIAAAAAAEAAABAgIEAAQAE=</HashCode>
+      <FileName>Ayudantes\Fecha.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Biblioteca.Ayudantes.Formulario">
+    <Position X="0.5" Y="11.75" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAwEEIAABIARoAAACAAAACAAAIQACEACIEE=</HashCode>
+      <FileName>Ayudantes\Formulario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Biblioteca.Ayudantes.Global">
+    <Position X="0.5" Y="0.5" Width="4.25" />
+    <Members>
+      <Property Name="Alerta_Antecedentes" Hidden="true" />
+      <Property Name="Alerta_CursoInduccion" Hidden="true" />
+      <Property Name="Alerta_CursoIzaje" Hidden="true" />
+      <Property Name="Alerta_Entrevista" Hidden="true" />
+      <Property Name="Alerta_ExamenMedico" Hidden="true" />
+      <Property Name="Alerta_LicenciaConducir" Hidden="true" />
+      <Property Name="Empresa_CodigoPostal" Hidden="true" />
+      <Property Name="Empresa_CUIT" Hidden="true" />
+      <Property Name="Empresa_Distrito" Hidden="true" />
+      <Property Name="Empresa_Domicilio" Hidden="true" />
+      <Property Name="Empresa_IIBB" Hidden="true" />
+      <Property Name="Empresa_InicioActividad" Hidden="true" />
+      <Property Name="Empresa_IVA" Hidden="true" />
+      <Property Name="Empresa_Provincia" Hidden="true" />
+      <Property Name="Empresa_RazonSocial" Hidden="true" />
+      <Property Name="Empresa_Telefono" Hidden="true" />
+      <Property Name="EstadoResultado_IIBBTasa" Hidden="true" />
+      <Property Name="EstadoResultado_PrevisionImpGananciaTasa" Hidden="true" />
+      <Property Name="EstadoResultado_PrevisionSACDesempleoTasa" Hidden="true" />
+      <Property Name="FormularioPrincipal" Hidden="true" />
+      <Property Name="FtpClave" Hidden="true" />
+      <Property Name="FtpServidor" Hidden="true" />
+      <Property Name="FtpUsuario" Hidden="true" />
+      <Property Name="LiquidacionSueldo_AporteTasa" Hidden="true" />
+      <Property Name="LiquidacionSueldo_ArtFijo" Hidden="true" />
+      <Property Name="LiquidacionSueldo_ArtTasa" Hidden="true" />
+      <Property Name="LiquidacionSueldo_ContribTiempoCompletoTasa" Hidden="true" />
+      <Property Name="LiquidacionSueldo_ContribTiempoParcialTasa" Hidden="true" />
+      <Property Name="LiquidacionSueldo_SCVO" Hidden="true" />
+      <Property Name="PaginacionIndiceMaximo" Hidden="true" />
+      <Property Name="PaginacionTamanio" Hidden="true" />
+      <Property Name="PtoVta" Hidden="true" />
+      <Property Name="RegistroAnulacion" Hidden="true" />
+      <Property Name="RegistroModificacion" Hidden="true" />
+      <Property Name="RelojDeSistema" Hidden="true" />
+      <Property Name="RutaDeTrabajo" Hidden="true" />
+      <Property Name="UsuarioActivo_Alertas" Hidden="true" />
+      <Property Name="UsuarioActivo_Denominacion" Hidden="true" />
+      <Property Name="UsuarioActivo_Documento" Hidden="true" />
+      <Property Name="UsuarioActivo_IdPersona" Hidden="true" />
+      <Property Name="UsuarioActivo_IdUsuario" Hidden="true" />
+      <Property Name="UsuarioActivo_Privilegios" Hidden="true" />
+      <Property Name="UsuarioActivo_TipoUsuario" Hidden="true" />
+      <Property Name="Vigencia_Antecedentes" Hidden="true" />
+      <Property Name="Vigencia_CurriculumVitae" Hidden="true" />
+      <Property Name="Vigencia_CursoInduccion" Hidden="true" />
+      <Property Name="Vigencia_CursoIzaje" Hidden="true" />
+      <Property Name="Vigencia_ExamenMedico" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AkAwMyRFMJRhMjwxn7MkGDoyJMABBuKREagFgZBiAQI=</HashCode>
+      <FileName>Ayudantes\Global.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Biblioteca.Ayudantes.Importacion">
+    <Position X="0.5" Y="17.25" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ayudantes\Importacion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Biblioteca.Ayudantes.Mensaje">
+    <Position X="5" Y="8.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>gAEAAAIAAAAAgQAAAAAAAAAAAAAAAEAAAAAAACAAQAA=</HashCode>
+      <FileName>Ayudantes\Mensaje.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Biblioteca.Ayudantes.Reporte">
+    <Position X="5" Y="11.25" Width="6.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Biblioteca.Ayudantes.Reporte.EncabezadoPDF" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Ayudantes\Reporte.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QQIgAgABAAAAAQAIEAAAgBIAAAAAEgAAAAAQEAABEAA=</HashCode>
+      <FileName>Ayudantes\Reporte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

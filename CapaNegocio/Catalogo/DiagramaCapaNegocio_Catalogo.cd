@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="CapaNegocio.Catalogo.N_Banco" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="3.25" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAABACIAAAAEAAAAgAAAAAAAAAAhAAAACgAAAAA=</HashCode>
+      <FileName>Catalogo\N_Banco.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.Catalogo.N_CategoriaTrabajo" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="3.25" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAABACIAAAAEAAEAgAAAAAAAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Catalogo\N_CategoriaTrabajo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.Catalogo.N_ConceptoSueldo" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.75" Width="3.25" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAABACIAAAAEAQAAgAAAAAAAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Catalogo\N_ConceptoSueldo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.Catalogo.N_ObraSocial" BaseTypeListCollapsed="true">
+    <Position X="4" Y="3.75" Width="3.25" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAABAiIAAAAEAAAAgAAAAAAAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Catalogo\N_ObraSocial.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.Catalogo.N_PerfilLaboral" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="7" Width="3.25" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAABACIAAQAEAAAAgAAAAAAAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Catalogo\N_PerfilLaboral.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.Catalogo.N_TipoNovedad" BaseTypeListCollapsed="true">
+    <Position X="4" Y="7" Width="3.25" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEIABACIAAAAEAAAAgAAAAAAAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Catalogo\N_TipoNovedad.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

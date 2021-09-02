@@ -1,0 +1,576 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CapaPresentacion.Catalogo.FormCatalogo_Articulo" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAgAgAACICQAIACIAAIAAAAAAAAAAAIAJI=</HashCode>
+      <FileName>Catalogo\FormCatalogo_Articulo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.Catalogo.FormCatalogo_Banco" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAAACQAAACAgCgAACACAAIQDCgBIAAAAAAAAQAAAAAI=</HashCode>
+      <FileName>Catalogo\FormCatalogo_Banco.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.Catalogo.FormCatalogo_CategoriaTrabajo" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAQAACAgCgAACECAAIQCCABIEAAAAAAAQIQAAAI=</HashCode>
+      <FileName>Catalogo\FormCatalogo_CategoriaTrabajo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.Catalogo.FormCatalogo_Cliente" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAACAgQgAACBCQAIACAAAIAAAAAAAAAAAIAAI=</HashCode>
+      <FileName>Catalogo\FormCatalogo_Cliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.Catalogo.FormCatalogo_Compra" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIACAgAggACACICIACAAAIAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Catalogo\FormCatalogo_Compra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.Catalogo.FormCatalogo_ConceptoSueldo" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAADAAAACAgCgAACASAgIQCCABIAAAAAEIAQAAAAAI=</HashCode>
+      <FileName>Catalogo\FormCatalogo_ConceptoSueldo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.Catalogo.FormCatalogo_ContratoTrabajo" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAGAgAgAACACQAYACBAAIAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Catalogo\FormCatalogo_ContratoTrabajo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.Catalogo.FormCatalogo_Legajo" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAgAgAACICAAIACAACICAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Catalogo\FormCatalogo_Legajo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.Catalogo.FormCatalogo_ObraSocial" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAACAAAACAgCgAACAiAAIQCCIBIAAAgAAAAQEAAAAI=</HashCode>
+      <FileName>Catalogo\FormCatalogo_ObraSocial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.Catalogo.FormCatalogo_PerfilLaboral" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAECAAEAKiEGsBAIICAAAUCCARAAGICEhEARAAAAAA=</HashCode>
+      <FileName>Catalogo\FormCatalogo_PerfilLaboral.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.Catalogo.FormCatalogo_Proveedor" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAgAgAACACQAIACAAAIAAAAAAAAIAAMABI=</HashCode>
+      <FileName>Catalogo\FormCatalogo_Proveedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.Catalogo.FormCatalogo_TipoNovedadNomina" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAACAgCgAgCACAAIQCCCBICAAAAAAARQAAAAI=</HashCode>
+      <FileName>Catalogo\FormCatalogo_TipoNovedadNomina.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.Catalogo.FormCatalogo_Venta" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAgAggBCACAAIACAAAIAAAAAAAAAAAEAAI=</HashCode>
+      <FileName>Catalogo\FormCatalogo_Venta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormPrincipal" Collapsed="true">
+    <Position X="7.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>R4hWL/0/tGEREVLPkUziTiNGnV5iMIerpQ4vbPvCegk=</HashCode>
+      <FileName>FormPrincipal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormCompra" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAkCfjkJrTh0T3eNiMbSTccDRYP9CDKVwUSg9QhsU4Y=</HashCode>
+      <FileName>Modulo_Compras\FormCompra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormFacturaAPagar" Collapsed="true">
+    <Position X="2.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAgAgDAiAAGAAACABAACAAABIAAYQAQAMAAIBAQ=</HashCode>
+      <FileName>Modulo_Compras\FormFacturaAPagar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormOrdenCompra" Collapsed="true">
+    <Position X="7.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>NAkCOhgJBSh0T3eNjMfTRccCRQP8jDaFwUyg9UxsEYI=</HashCode>
+      <FileName>Modulo_Compras\FormOrdenCompra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormProveedor" Collapsed="true">
+    <Position X="0.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAACY4EASAsSAVoDACiBcUCAAjJAIAqAABFcEAvFBI=</HashCode>
+      <FileName>Modulo_Compras\FormProveedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormProveedorCtaCte" Collapsed="true">
+    <Position X="2.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAgEgDAgAAHAAACABAACAAABISAIQAAAMEAIBAQ=</HashCode>
+      <FileName>Modulo_Compras\FormProveedorCtaCte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormAsientoManual" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAOCAAMiSAwCDMsiEOCBYcCRAFVICSAgAUg1ABggII=</HashCode>
+      <FileName>Modulo_Contabilidad\FormAsientoManual.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormBalanceSumasSaldos" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAkAgEECAAgRBAAACABAACAAJBAQAJQAkIAABIAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\FormBalanceSumasSaldos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormCentroCosto" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAECAIAACAgSAUACACCAIQCAARDABAAAAAAUAAAAAI=</HashCode>
+      <FileName>Modulo_Contabilidad\FormCentroCosto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormConsumoCentroCosto" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEQBAAEACDgAAEAAACCBAATAACBAAAAQECSAAgIEIA=</HashCode>
+      <FileName>Modulo_Contabilidad\FormConsumoCentroCosto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormEstadoFinanciero" Collapsed="true">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQBAEAECBAARAABACAAAACEAIBAAAIQIAIAAhIAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\FormEstadoFinanciero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormEstadoResultados" Collapsed="true">
+    <Position X="5.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQBAAAECBAARAAAACAAIACABIFAAAIQAgIAAhIAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\FormEstadoResultados.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormLibroDiario" Collapsed="true">
+    <Position X="0.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgBhEAgEEiABgRBABACCBEACAAIBAQAJQAAIAEBIAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\FormLibroDiario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormLibroMayor" Collapsed="true">
+    <Position X="4" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgBAEAgEEiAAgRRABACCBEAiAAYBAQAJQAAIAABIBAA=</HashCode>
+      <FileName>Modulo_Contabilidad\FormLibroMayor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormPlanDeCuenta" Collapsed="true">
+    <Position X="5.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAhACCIEACAgCAEAGACCAJQKAAjFCCAACAAAUABAEAI=</HashCode>
+      <FileName>Modulo_Contabilidad\FormPlanDeCuenta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormRentabilidadCentroCosto" Collapsed="true">
+    <Position X="4" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>9ZEAL7FjCTBna9Ew3QyCUsSKQMBRJAwgUAAgQCFgics=</HashCode>
+      <FileName>Modulo_Contabilidad\FormRentabilidadCentroCosto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormResumenAsientoCompra" Collapsed="true">
+    <Position X="5.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAUBAgEECBAARBAAACCBAACAAIAAQKIQAAIAAhIAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\FormResumenAsientoCompra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormResumenAsientoSueldo" Collapsed="true">
+    <Position X="7.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQBAgEECBAARBAAACCBAECAAIAAQAIQAAIgIhIAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\FormResumenAsientoSueldo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormResumenAsientoVenta" Collapsed="true">
+    <Position X="0.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEQBAgEECJAARBAAACCBAACAAICCQAIQAAIAAhIAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\FormResumenAsientoVenta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormLibroIVA" Collapsed="true">
+    <Position X="2.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAQRAgEOCBEIRDAhBCCBQIiAAahIEEIAIAIAQhoEAA=</HashCode>
+      <FileName>Modulo_Impuestos\FormLibroIVA.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormRG36852014" Collapsed="true">
+    <Position X="4" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAQBAwEGCBEIBDBghCCBUIDUgahAEUIAYAAAQhoGQA=</HashCode>
+      <FileName>Modulo_Impuestos\FormRG36852014.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormArticulo" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IDUICA4EAyAmKBmhS7fDJd2DpCBvANACYjADaMghUCI=</HashCode>
+      <FileName>Modulo_Inventario\FormArticulo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormConsumoStock" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQkCCAAdISgwDicZiIKCAY4CBADRYCaUgAQAxIiIgIo=</HashCode>
+      <FileName>Modulo_Inventario\FormConsumoStock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormControlStock" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAESCAAsISggDicJiICCBY4CAABTACwUgCQARIIIQII=</HashCode>
+      <FileName>Modulo_Inventario\FormControlStock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormFormularioR29911" Collapsed="true">
+    <Position X="5.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAkCCAgtJSB02jdJiIKCBaYCpATRiCaUiAQA1wgAmII=</HashCode>
+      <FileName>Modulo_Inventario\FormFormularioR29911.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormMovimientoStock" Collapsed="true">
+    <Position X="0.5" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ICkGCAANJSAwSiMJjIKCBYYCBAjRxCaUgAQAxAwIkJI=</HashCode>
+      <FileName>Modulo_Inventario\FormMovimientoStock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormSuministracionIEPP" Collapsed="true">
+    <Position X="0.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAkiCQgNJyAw2icJiIKCBaYCBADRiCaUiAQA1RwIkKI=</HashCode>
+      <FileName>Modulo_Inventario\FormSuministracionIEPP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormBusquedaPostulante" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACCQAEACEEEAEAIECAIQEnAAABAgAEWAwBICCABEI=</HashCode>
+      <FileName>Modulo_RRHH\FormBusquedaPostulante.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormCapacitacionLaboral" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAKAoEACAgyCUEiICCBYQiAAjhKAQBSIAAUAAoFII=</HashCode>
+      <FileName>Modulo_RRHH\FormCapacitacionLaboral.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormContrato" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCAMOAoEIGAkyCUAqICCFYQyFEDTCowBCAGAcAEgEJo=</HashCode>
+      <FileName>Modulo_RRHH\FormContrato.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormCursoInduccion" Collapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAKAqEACAkyCUAiJCChIQiAADhCARBCIAAUAAIEII=</HashCode>
+      <FileName>Modulo_RRHH\FormCursoInduccion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormCursoIzaje" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAKgIEAiAk2S0AiICCBIQigADhCAQBCJAAcAAsAIo=</HashCode>
+      <FileName>Modulo_RRHH\FormCursoIzaje.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormEntrevista" Collapsed="true">
+    <Position X="2.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAoEACAkyCUIjICThYUiAADBCAQFDggAUDBgEII=</HashCode>
+      <FileName>Modulo_RRHH\FormEntrevista.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormExamenMedico" Collapsed="true">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MmDcCXoOACAkyCUAiICGJIQqAATBKAQRCAAA0BA4EpM=</HashCode>
+      <FileName>Modulo_RRHH\FormExamenMedico.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormLegajo" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCKQ4EACgsTCUMDIiCBaUCAAnhCMAIAGANUEIoNFI=</HashCode>
+      <FileName>Modulo_RRHH\FormLegajo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormLegajoCurriculumVitae" Collapsed="true">
+    <Position X="2.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEgACEoNAiAkyK0MGIDSDYQDBEDBCIQDCQwAUAAiGJI=</HashCode>
+      <FileName>Modulo_RRHH\FormLegajoCurriculumVitae.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormLegajoDocumentacion" Collapsed="true">
+    <Position X="4" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgCQYEACCiyDUACIGShMQKAlBBAAABCCAIUQAAEFI=</HashCode>
+      <FileName>Modulo_RRHH\FormLegajoDocumentacion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormLegajoLaboral" Collapsed="true">
+    <Position X="5.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ChAYKQoFAiAsyCUArIiCJYQCAADBAgGBSIBAUAAoEAI=</HashCode>
+      <FileName>Modulo_RRHH\FormLegajoLaboral.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormLegajoTalle" Collapsed="true">
+    <Position X="7.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAACAIEACCg2GUACICChIQCBALBAAABCAAAUCAAEAI=</HashCode>
+      <FileName>Modulo_RRHH\FormLegajoTalle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormNovedadNomina" Collapsed="true">
+    <Position X="4" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAILgokIGBg6CUAiICCBKQiJEDhCIUBCohpeAEYNoI=</HashCode>
+      <FileName>Modulo_RRHH\FormNovedadNomina.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormResumenRelevanteLegajo" Collapsed="true">
+    <Position X="2.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAAEQAAAKAAAJEAAFCAgQACAQEhAAAAUESAIAIAQII=</HashCode>
+      <FileName>Modulo_RRHH\FormResumenRelevanteLegajo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormSindicato" Collapsed="true">
+    <Position X="5.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CrAAKAoEAKglaBEAOICCAaQjAAXBAAAAAAAAUIAgEAI=</HashCode>
+      <FileName>Modulo_RRHH\FormSindicato.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormSueldo" Collapsed="true">
+    <Position X="7.5" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAUALQosIChsyC0IiIGCF5YiACHvCCwRiIAgUkQqMAI=</HashCode>
+      <FileName>Modulo_RRHH\FormSueldo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.NavegacionRRHH" Collapsed="true">
+    <Position X="5.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modulo_RRHH\NavegacionRRHH.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormChequeAPagar" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAIAEgCAgAAEAAACCDAACAACBAAAKQEAAIAAIHAQ=</HashCode>
+      <FileName>Modulo_Tesoreria\FormChequeAPagar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormCobranza" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>cozGb7xNRaA02zUdiFeCVc9irYXdnzSZxIUp1ej6MgI=</HashCode>
+      <FileName>Modulo_Tesoreria\FormCobranza.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormConciliacion" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AghABCgQEiANARAABFCCBFQCAAKJCAhKUAIIABBIEAA=</HashCode>
+      <FileName>Modulo_Tesoreria\FormConciliacion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormFondo" Collapsed="true">
+    <Position X="4" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAECAAABAAAACCBEACAAoBARAIQAAIQABIAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\FormFondo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormMovimientoFondo" Collapsed="true">
+    <Position X="7.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAIACBgEACAhSgEEiAGCAKQCAIDFAAQAgACgUgDgEAM=</HashCode>
+      <FileName>Modulo_Tesoreria\FormMovimientoFondo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormPagoNomina" Collapsed="true">
+    <Position X="0.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgIAKBwEACAlyiUMiIGCBaUiAIDnDAQJiIAgUEzoUAI=</HashCode>
+      <FileName>Modulo_Tesoreria\FormPagoNomina.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormPagoOtro" Collapsed="true">
+    <Position X="2.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgIACBwEACAnygEMiEGCAKUCAKDFBAQIoAAgUEmoUII=</HashCode>
+      <FileName>Modulo_Tesoreria\FormPagoOtro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormPagoProveedor" Collapsed="true">
+    <Position X="4" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UgACK1xdCWE0yjUNikOABediJKHVJDSIgAQh9EisUAI=</HashCode>
+      <FileName>Modulo_Tesoreria\FormPagoProveedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormCliente" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACY4EASCsSAUoDFCCBcUCBAjBAIAoAAAFUEAoFAI=</HashCode>
+      <FileName>Modulo_Ventas\FormCliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormClienteCtaCte" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAkEgDAgAAHAAACADAACAAABIQAIQAAAMAAIBAQ=</HashCode>
+      <FileName>Modulo_Ventas\FormCtaCteCliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormFacturaACobrar" Collapsed="true">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAgAgDAgAAGAAACABAACAAAJICAIYAAAMAAIBAQ=</HashCode>
+      <FileName>Modulo_Ventas\FormFacturaACobrar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormVenta" Collapsed="true">
+    <Position X="4" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAmCTj0JpTh0SneNiNbSRccLRYPVCSKUgESg1QhkkYI=</HashCode>
+      <FileName>Modulo_Ventas\FormVenta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.Program" Collapsed="true">
+    <Position X="7.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormAcceso" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EDAAAAAAgSAgDAgAAACABAADAAQAAEQAAAAAAAAHAAA=</HashCode>
+      <FileName>Sistema\FormAcceso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormAccesoRecuperacion" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADIAAIAAAGDACAgAAACAACADAQEAAAQQoCCAAAQCAAA=</HashCode>
+      <FileName>Sistema\FormAccesoRecuperacion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormAcercaDe" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAACAAAAAAABCAAAACAAAoAAAAAAgAAAABAAA=</HashCode>
+      <FileName>Sistema\FormAcercaDe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormAlerta" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAIAAACCgEBEACAGIBIACCAAAAAAAsBAQIAoAAAI=</HashCode>
+      <FileName>Sistema\FormAlerta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormAuditoria" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAACCgAAEACACIBIACCAgAAAAAsIAQABIAAAI=</HashCode>
+      <FileName>Sistema\FormAuditoria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormHerramienta" Collapsed="true">
+    <Position X="7.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAIAACAECAQCAAAQADQBAADChEAAAQAAMAAKEAKAAA=</HashCode>
+      <FileName>Sistema\FormHerramienta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormMiEmpresa" Collapsed="true">
+    <Position X="5.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgCYoEASAsCJQBBACiIYUCAALBAIAmEAAFEgggFCA=</HashCode>
+      <FileName>Sistema\FormMiEmpresa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormOpcionGeneral" Collapsed="true">
+    <Position X="5.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAgAC8sATgFCIBAECCioc0CYxbBAkAkQAwgAhQgEIg=</HashCode>
+      <FileName>Sistema\FormOpcionGeneral.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.FormUsuario" Collapsed="true">
+    <Position X="2.25" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QCSACAoUBSAkyQ0ICICDBMQCAgDBAAQACAAAUQAAEA4=</HashCode>
+      <FileName>Sistema\FormUsuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.Modales.FormNotificacion" Collapsed="true">
+    <Position X="2.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAHAAAAAAACCAAAACAAAAARAAAEAAAAAAAAA=</HashCode>
+      <FileName>Modal\FormNotificacion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.Properties.Resources" Collapsed="true">
+    <Position X="0.5" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACBAAgkAAAACAAIAAABBEAQADwAABIgDJAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CapaPresentacion.Properties.Settings" Collapsed="true">
+    <Position X="2.25" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

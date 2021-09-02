@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7CE1F07A-29D3-41F2-8696-15D58B28B14D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Interfaces</RootNamespace>
+    <AssemblyName>Interfaces</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Catalogo\IBanco.cs" />
+    <Compile Include="Catalogo\ICategoriaTrabajo.cs" />
+    <Compile Include="Modulo_Compras\IFacturaAPagar.cs" />
+    <Compile Include="Modulo_Contabilidad\ICentroCosto.cs" />
+    <Compile Include="Catalogo\IConceptoSueldo.cs" />
+    <Compile Include="Catalogo\IObraSocial.cs" />
+    <Compile Include="Catalogo\IPerfilLaboral.cs" />
+    <Compile Include="Catalogo\ITipoNovedad.cs" />
+    <Compile Include="Modulo_Compras\IOrdenCompra.cs" />
+    <Compile Include="Modulo_Compras\IOrdenCompraDetalle.cs" />
+    <Compile Include="Modulo_Contabilidad\IAsientoManual.cs" />
+    <Compile Include="Modulo_Contabilidad\IAsientoManualDetalle.cs" />
+    <Compile Include="Modulo_Contabilidad\IAsientoCentroCostoRentabilidadCosto.cs" />
+    <Compile Include="Modulo_Contabilidad\IRentabilidadCentroCostoDetalleImporte.cs" />
+    <Compile Include="Modulo_Contabilidad\IRentabilidadCentroCostoDetalleCosto.cs" />
+    <Compile Include="Modulo_Contabilidad\IRentabilidadCentroCosto.cs" />
+    <Compile Include="Modulo_Contabilidad\IConsumoCentroCosto.cs" />
+    <Compile Include="Modulo_Contabilidad\IEstadoFinanciero.cs" />
+    <Compile Include="Modulo_Contabilidad\IEstadoResultados.cs" />
+    <Compile Include="Modulo_Contabilidad\IResumenAsientoSueldo.cs" />
+    <Compile Include="Modulo_RRHH\IResumenRelevanteLegajo.cs" />
+    <Compile Include="Modulo_RRHH\IBusquedaPostulante.cs" />
+    <Compile Include="Modulo_Tesoreria\IChequeAPagar.cs" />
+    <Compile Include="Modulo_Tesoreria\IPagoOtro.cs" />
+    <Compile Include="Modulo_Tesoreria\IPagoNomina.cs" />
+    <Compile Include="Modulo_RRHH\ISueldo.cs" />
+    <Compile Include="Modulo_RRHH\INovedadNomina.cs" />
+    <Compile Include="Modulo_RRHH\ICursoInduccion.cs" />
+    <Compile Include="Modulo_RRHH\ICursoIzaje.cs" />
+    <Compile Include="Modulo_RRHH\ICapacitacionLaboral.cs" />
+    <Compile Include="Modulo_RRHH\IEntrevista.cs" />
+    <Compile Include="Modulo_RRHH\ILegajoCurriculumVitae.cs" />
+    <Compile Include="Modulo_RRHH\IExamenMedico.cs" />
+    <Compile Include="Modulo_RRHH\ISindicato.cs" />
+    <Compile Include="Modulo_RRHH\ILegajoLaboral.cs" />
+    <Compile Include="Modulo_RRHH\ILegajoTalle.cs" />
+    <Compile Include="Modulo_RRHH\ILegajoDocumentacion.cs" />
+    <Compile Include="Modulo_RRHH\ILegajo.cs" />
+    <Compile Include="Modulo_RRHH\IRelacion_LegajoCurriculumVitae_PerfilLaboral.cs" />
+    <Compile Include="Modulo_Tesoreria\IConciliacion.cs" />
+    <Compile Include="Modulo_Tesoreria\IPagoProveedor.cs" />
+    <Compile Include="Modulo_Tesoreria\IPagoProveedorDetalle.cs" />
+    <Compile Include="Modulo_Compras\IProveedorCtaCte.cs" />
+    <Compile Include="Modulo_Contabilidad\IAsientoContable.cs" />
+    <Compile Include="Modulo_Contabilidad\IResumenAsientoCompra.cs" />
+    <Compile Include="Modulo_Contabilidad\IResumenAsientoVenta.cs" />
+    <Compile Include="Modulo_Contabilidad\ICuentaContable.cs" />
+    <Compile Include="Modulo_Contabilidad\ILibroDiario.cs" />
+    <Compile Include="Modulo_Contabilidad\IBalanceSumasSaldos.cs" />
+    <Compile Include="Modulo_Contabilidad\ILibroMayor.cs" />
+    <Compile Include="Modulo_Tesoreria\IFondo.cs" />
+    <Compile Include="Modulo_Tesoreria\IMovimientoFondo.cs" />
+    <Compile Include="Modulo_Ventas\ICtaCteCliente.cs" />
+    <Compile Include="Modulo_Ventas\IFacturaACobrar.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Modulo_Tesoreria\ICobranza.cs" />
+    <Compile Include="Modulo_Tesoreria\ICobranzaDetalle.cs" />
+    <Compile Include="Modulo_Compras\ICompra.cs" />
+    <Compile Include="Modulo_Compras\ICompraDetalle.cs" />
+    <Compile Include="Modulo_Compras\IProveedor.cs" />
+    <Compile Include="Modulo_RRHH\IContrato.cs" />
+    <Compile Include="Modulo_Inventario\IArticulo.cs" />
+    <Compile Include="Modulo_Inventario\IConsumoStock.cs" />
+    <Compile Include="Modulo_Inventario\IConsumoStockDetalle.cs" />
+    <Compile Include="Modulo_Inventario\IControlStock.cs" />
+    <Compile Include="Modulo_Inventario\IControlStockDetalle.cs" />
+    <Compile Include="Modulo_Inventario\IFormularioR29911.cs" />
+    <Compile Include="Modulo_Inventario\IFormularioR29911Detalle.cs" />
+    <Compile Include="Modulo_Inventario\IMovimientoStock.cs" />
+    <Compile Include="Modulo_Inventario\IMovimientoStockDetalle.cs" />
+    <Compile Include="Modulo_Inventario\ISuministracionIEPP.cs" />
+    <Compile Include="Modulo_Inventario\ISuministracionIEPPDetalle.cs" />
+    <Compile Include="Modulo_Ventas\ICliente.cs" />
+    <Compile Include="Modulo_Ventas\IVenta.cs" />
+    <Compile Include="Modulo_Ventas\IVentaDetalle.cs" />
+    <Compile Include="Sistema\IAlerta.cs" />
+    <Compile Include="Sistema\IAuditoria.cs" />
+    <Compile Include="Sistema\ICredencialFTP.cs" />
+    <Compile Include="Sistema\IUsuario.cs" />
+    <Compile Include="Sistema\IOpcionGeneral.cs" />
+    <Compile Include="Sistema\IMonitor.cs" />
+    <Compile Include="Sistema\IPrivilegio.cs" />
+    <Compile Include="Sistema\IMiEmpresa.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entidades\Entidades.csproj">
+      <Project>{4345af06-3449-497d-ac47-33d1e2b1d829}</Project>
+      <Name>Entidades</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Catalogo\DiagramaInterfaces_Catalogo.cd" />
+    <None Include="Modulo_Compras\DiagramaInterfaces_Compras.cd" />
+    <None Include="Modulo_Contabilidad\DiagramaInterfaces_Contabilidad.cd" />
+    <None Include="Modulo_Inventario\DiagramaInterfaces_Inventario.cd" />
+    <None Include="Modulo_RRHH\DiagramaInterfaces_RRHH.cd" />
+    <None Include="Modulo_Tesoreria\DiagramaInterfaces_Tesoreria.cd" />
+    <None Include="Modulo_Ventas\DiagramaInterfaces_Ventas.cd" />
+    <None Include="Sistema\DiagramaInterfaces_Sistema.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

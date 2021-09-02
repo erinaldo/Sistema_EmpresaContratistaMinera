@@ -1,0 +1,14 @@
+D:\CodigoFuente_Empreminsa\Proyecto\Actualizador\bin\Debug\Actualizador.exe.config
+D:\CodigoFuente_Empreminsa\Proyecto\Actualizador\bin\Debug\Actualizador.exe
+D:\CodigoFuente_Empreminsa\Proyecto\Actualizador\bin\Debug\Actualizador.pdb
+D:\CodigoFuente_Empreminsa\Proyecto\Actualizador\bin\Debug\Biblioteca.dll
+D:\CodigoFuente_Empreminsa\Proyecto\Actualizador\bin\Debug\Entidades.dll
+D:\CodigoFuente_Empreminsa\Proyecto\Actualizador\bin\Debug\Biblioteca.pdb
+D:\CodigoFuente_Empreminsa\Proyecto\Actualizador\bin\Debug\Entidades.pdb
+D:\CodigoFuente_Empreminsa\Proyecto\Actualizador\obj\Debug\Actualizador.csprojResolveAssemblyReference.cache
+D:\CodigoFuente_Empreminsa\Proyecto\Actualizador\obj\Debug\Actualizador.FormPublicacionActualizacion.resources
+D:\CodigoFuente_Empreminsa\Proyecto\Actualizador\obj\Debug\Actualizador.Properties.Resources.resources
+D:\CodigoFuente_Empreminsa\Proyecto\Actualizador\obj\Debug\Actualizador.csproj.GenerateResource.Cache
+D:\CodigoFuente_Empreminsa\Proyecto\Actualizador\obj\Debug\Actualizador.csproj.CoreCompileInputs.cache
+D:\CodigoFuente_Empreminsa\Proyecto\Actualizador\obj\Debug\Actualizador.exe
+D:\CodigoFuente_Empreminsa\Proyecto\Actualizador\obj\Debug\Actualizador.pdb

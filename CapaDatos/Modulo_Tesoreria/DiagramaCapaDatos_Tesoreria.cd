@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="CapaDatos.D_ChequeAPagar" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="3.5" />
+    <Members>
+      <Field Name="AND" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM_MOVIMIENTO" Hidden="true" />
+      <Field Name="FROM_PAGO_NOMINA" Hidden="true" />
+      <Field Name="FROM_PAGO_OTRO" Hidden="true" />
+      <Field Name="FROM_PAGO_PROVEEDOR" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT_MOVIMIENTO" Hidden="true" />
+      <Field Name="SELECT_PAGO_NOMINA" Hidden="true" />
+      <Field Name="SELECT_PAGO_OTRO" Hidden="true" />
+      <Field Name="SELECT_PAGO_PROVEEDOR" Hidden="true" />
+      <Field Name="SUM_MONTO" Hidden="true" />
+      <Field Name="WHERE" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAABACgAAQAAAAGoAIgACAgAAQIBGAAQAIABAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\D_ChequeAPagar.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_Cobranza" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="0.5" Width="3.75" />
+    <Members>
+      <Field Name="ACTUALIZAR" Hidden="true" />
+      <Field Name="ANULAR" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="INSERTAR" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ACTUALIZAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ANULAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_INSERTAR" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT1" Hidden="true" />
+      <Field Name="SELECT2" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+      <Field Name="WHERE3" Hidden="true" />
+      <Field Name="WHERE4" Hidden="true" />
+      <Field Name="WHERE5" Hidden="true" />
+      <Field Name="WHERE6" Hidden="true" />
+      <Field Name="WHERE7" Hidden="true" />
+      <Field Name="WHERE8" Hidden="true" />
+      <Field Name="WHERE9" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACgAAQAAAACAgIAAAABAAQMBAgAACsABAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\D_Cobranza.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_CobranzaDetalle" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="0.5" Width="4" />
+    <Members>
+      <Field Name="ACTUALIZAR" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="INSERTAR" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ACTUALIZAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_INSERTAR" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+      <Field Name="WHERE3" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACgAAQAAAACAgIAAAAAAAQBBAgAACoABAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\D_CobranzaDetalle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_Conciliacion" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.5" Width="3.5" />
+    <Members>
+      <Field Name="CONCILIAR" Hidden="true" />
+      <Field Name="DESCONCILIAR" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_CONCILIACION" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT" Hidden="true" />
+      <Field Name="SUM_DEBE" Hidden="true" />
+      <Field Name="SUM_HABER" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+      <Field Name="WHERE3" Hidden="true" />
+      <Field Name="WHERE4" Hidden="true" />
+      <Field Name="WHERE5" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAFAEAAAACAAAQAAAAAAgIAAAAAAAQBAAABgAoEBAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\D_Conciliacion.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_Fondo" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="6.25" Width="3.5" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT" Hidden="true" />
+      <Field Name="WHERE" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAAAQAAAAAAgIAAAAAAAQBBAAAAAIABAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\D_Fondo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_MovimientoFondo" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="3.25" Width="4" />
+    <Members>
+      <Field Name="ACTUALIZAR" Hidden="true" />
+      <Field Name="ANULAR" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="INSERTAR" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ACTUALIZAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ANULAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_INSERTAR" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+      <Field Name="WHERE3" Hidden="true" />
+      <Field Name="WHERE4" Hidden="true" />
+      <Field Name="WHERE5" Hidden="true" />
+      <Field Name="WHERE6" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACgAAQAAAACAgIAAAABAAQBBAgAACsABAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\D_MovimientoFondo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_PagoNomina" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="6.5" Width="3.75" />
+    <Members>
+      <Field Name="ANULAR" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="INSERTAR" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ACTUALIZAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ANULAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_INSERTAR" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE10" Hidden="true" />
+      <Field Name="WHERE11" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+      <Field Name="WHERE3" Hidden="true" />
+      <Field Name="WHERE4" Hidden="true" />
+      <Field Name="WHERE5" Hidden="true" />
+      <Field Name="WHERE6" Hidden="true" />
+      <Field Name="WHERE7" Hidden="true" />
+      <Field Name="WHERE8" Hidden="true" />
+      <Field Name="WHERE9" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACsAAQAAAACAgIAAAABAAQBBAgAACsABAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\D_PagoNomina.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_PagoOtro" BaseTypeListCollapsed="true">
+    <Position X="4.25" Y="3.5" Width="3.75" />
+    <Members>
+      <Field Name="ACTUALIZAR" Hidden="true" />
+      <Field Name="ANULAR" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="INSERTAR" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ACTUALIZAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ANULAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_INSERTAR" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+      <Field Name="WHERE3" Hidden="true" />
+      <Field Name="WHERE4" Hidden="true" />
+      <Field Name="WHERE5" Hidden="true" />
+      <Field Name="WHERE6" Hidden="true" />
+      <Field Name="WHERE7" Hidden="true" />
+      <Field Name="WHERE8" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACgAAQAAAACAgIAAAABAAQBBAgAACsABAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\D_PagoOtro.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_PagoProveedor" BaseTypeListCollapsed="true">
+    <Position X="8.25" Y="6.25" Width="4" />
+    <Members>
+      <Field Name="ACTUALIZAR" Hidden="true" />
+      <Field Name="ANULAR" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="INSERTAR" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ACTUALIZAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ANULAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_INSERTAR" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT1" Hidden="true" />
+      <Field Name="SELECT2" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+      <Field Name="WHERE3" Hidden="true" />
+      <Field Name="WHERE4" Hidden="true" />
+      <Field Name="WHERE5" Hidden="true" />
+      <Field Name="WHERE6" Hidden="true" />
+      <Field Name="WHERE7" Hidden="true" />
+      <Field Name="WHERE8" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACgAAQAAAACAgIAAAABAAQMBAgAACsABAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\D_PagoProveedor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_PagoProveedorDetalle" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="8.5" Width="3.5" />
+    <Members>
+      <Field Name="ACTUALIZAR" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="INSERTAR" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ACTUALIZAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_INSERTAR" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+      <Field Name="WHERE3" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACgAAQAAAACAgIAAAAAAAQBBAgAACoABAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\D_PagoProveedorDetalle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

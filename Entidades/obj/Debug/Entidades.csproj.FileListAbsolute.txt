@@ -1,0 +1,12 @@
+C:\Proyecto\Entidades\bin\Debug\Entidades.dll
+C:\Proyecto\Entidades\bin\Debug\Entidades.pdb
+C:\Proyecto\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Proyecto\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Proyecto\Entidades\obj\Debug\Entidades.dll
+C:\Proyecto\Entidades\obj\Debug\Entidades.pdb
+D:\CodigoFuente_Empreminsa\Proyecto\Entidades\bin\Debug\Entidades.dll
+D:\CodigoFuente_Empreminsa\Proyecto\Entidades\bin\Debug\Entidades.pdb
+D:\CodigoFuente_Empreminsa\Proyecto\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\CodigoFuente_Empreminsa\Proyecto\Entidades\obj\Debug\Entidades.dll
+D:\CodigoFuente_Empreminsa\Proyecto\Entidades\obj\Debug\Entidades.pdb
+D:\CodigoFuente_Empreminsa\Proyecto\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache

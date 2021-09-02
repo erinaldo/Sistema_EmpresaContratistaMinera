@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Entidades.Cliente" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <Members>
+      <Property Name="Banco" Hidden="true" />
+      <Property Name="Celular" Hidden="true" />
+      <Property Name="Cp" Hidden="true" />
+      <Property Name="CtaBancariaNro" Hidden="true" />
+      <Property Name="CtaBancariaTipo" Hidden="true" />
+      <Property Name="CuentaContable" Hidden="true" />
+      <Property Name="Cuit" Hidden="true" />
+      <Property Name="Denominacion" Hidden="true" />
+      <Property Name="Distrito" Hidden="true" />
+      <Property Name="Domicilio" Hidden="true" />
+      <Property Name="EdicionFecha" Hidden="true" />
+      <Property Name="EdicionUsuarioDenominacion" Hidden="true" />
+      <Property Name="EdicionUsuarioId" Hidden="true" />
+      <Property Name="Email" Hidden="true" />
+      <Property Name="Estado" Hidden="true" />
+      <Property Name="Id" Hidden="true" />
+      <Property Name="Iva" Hidden="true" />
+      <Property Name="PaginaWeb" Hidden="true" />
+      <Property Name="Provincia" Hidden="true" />
+      <Property Name="Saldo" Hidden="true" />
+      <Property Name="Telefono" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAhCRAAACiAAAAAZkATAABIAKEwIAAAAAAKhYgiREAk=</HashCode>
+      <FileName>Modulo_Ventas\Cliente.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.ClienteCtaCte">
+    <Position X="0.5" Y="6.25" Width="2.75" />
+    <Members>
+      <Property Name="Cuit" Hidden="true" />
+      <Property Name="Denominacion" Hidden="true" />
+      <Property Name="Saldo" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAQAAACAAAAAAAAAAAAAAAAAAIAAAAAAIBAAABAAA=</HashCode>
+      <FileName>Modulo_Ventas\ClienteCtaCte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.FacturaACobrar">
+    <Position X="6.5" Y="4.5" Width="2.5" />
+    <Members>
+      <Property Name="Cuit" Hidden="true" />
+      <Property Name="Denominacion" Hidden="true" />
+      <Property Name="EstadoCobro" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AABAQAAACAAAAAAAAAAAAAAAAAAIIAAAAAAAAAABAAA=</HashCode>
+      <FileName>Modulo_Ventas\FacturaACobrar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Venta" BaseTypeListCollapsed="true">
+    <Position X="3.5" Y="0.5" Width="2.75" />
+    <Members>
+      <Property Name="AfipCbteFecha" Hidden="true" />
+      <Property Name="AfipCbteNro" Hidden="true" />
+      <Property Name="AfipCbteTipo" Hidden="true" />
+      <Property Name="AfipCbteTPV" Hidden="true" />
+      <Property Name="AsociacionAfipCbteFecha" Hidden="true" />
+      <Property Name="AsociacionAfipCbteNro" Hidden="true" />
+      <Property Name="AsociacionAfipCbteTipo" Hidden="true" />
+      <Property Name="AsociacionAfipCbteTPV" Hidden="true" />
+      <Property Name="AsociacionAplicada" Hidden="true" />
+      <Property Name="AsociacionId" Hidden="true" />
+      <Property Name="Cliente" Hidden="true" />
+      <Property Name="CobranzaAlertado" Hidden="true" />
+      <Property Name="CobranzaEstado" Hidden="true" />
+      <Property Name="CobranzaVto" Hidden="true" />
+      <Property Name="CuentaContable" Hidden="true" />
+      <Property Name="Descuento" Hidden="true" />
+      <Property Name="DescuentoPorcentual" Hidden="true" />
+      <Property Name="EdicionFecha" Hidden="true" />
+      <Property Name="EdicionUsuarioDenominacion" Hidden="true" />
+      <Property Name="EdicionUsuarioId" Hidden="true" />
+      <Property Name="Fecha" Hidden="true" />
+      <Property Name="Id" Hidden="true" />
+      <Property Name="Iva105" Hidden="true" />
+      <Property Name="Iva210" Hidden="true" />
+      <Property Name="Iva270" Hidden="true" />
+      <Property Name="NoGravado" Hidden="true" />
+      <Property Name="Periodo" Hidden="true" />
+      <Property Name="Subtotal" Hidden="true" />
+      <Property Name="Total" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEgL0BgCAgg0AElQhgLAAACYBEgAQADgALAC4QAQEEI=</HashCode>
+      <FileName>Modulo_Ventas\Venta.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.VentaDetalle">
+    <Position X="6.5" Y="0.5" Width="2.5" />
+    <Members>
+      <Property Name="AlicuotaIVA" Hidden="true" />
+      <Property Name="BaseIVA" Hidden="true" />
+      <Property Name="Cantidad" Hidden="true" />
+      <Property Name="CentroCosto" Hidden="true" />
+      <Property Name="Denominacion" Hidden="true" />
+      <Property Name="Deposito" Hidden="true" />
+      <Property Name="Id" Hidden="true" />
+      <Property Name="IdArticulo" Hidden="true" />
+      <Property Name="PrecioNeto" Hidden="true" />
+      <Property Name="PrecioUnitario" Hidden="true" />
+      <Property Name="Unidad" Hidden="true" />
+      <Property Name="Venta" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AIESACEAAIwAAJAAAABEAABAgkAKAAAEEAAAAAABAIA=</HashCode>
+      <FileName>Modulo_Ventas\VentaDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

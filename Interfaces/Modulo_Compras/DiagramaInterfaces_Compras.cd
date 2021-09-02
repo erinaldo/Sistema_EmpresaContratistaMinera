@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Interface Name="Interfaces.ICompra">
+    <Position X="0.5" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAEgAAAAAAAAAAAgCAAAAAAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_Compras\ICompra.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.ICompraDetalle">
+    <Position X="0.5" Y="3.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAAAAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_Compras\ICompraDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IFacturaAPagar">
+    <Position X="0.5" Y="5.25" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Modulo_Compras\IFacturaAPagar.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IOrdenCompra">
+    <Position X="4.25" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAQAAgAAAAABAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_Compras\IOrdenCompra.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IOrdenCompraDetalle">
+    <Position X="4.25" Y="3" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAAAAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_Compras\IOrdenCompraDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IProveedor">
+    <Position X="4.25" Y="5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAEAAAAgAAAAAAAAAABAAAACgAAAAE=</HashCode>
+      <FileName>Modulo_Compras\IProveedor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IProveedorCtaCte">
+    <Position X="0.5" Y="6.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Modulo_Compras\IProveedorCtaCte.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

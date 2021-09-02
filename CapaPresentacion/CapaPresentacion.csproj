@@ -1,0 +1,873 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{995E5A0B-0328-4252-8F2A-50274B1ED4C4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CapaPresentacion</RootNamespace>
+    <AssemblyName>Empreminsa</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BarcodeStandard, Version=2.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\BarcodeLib.2.2.1\lib\netstandard2.0\BarcodeStandard.dll</HintPath>
+    </Reference>
+    <Reference Include="ClosedXML, Version=0.93.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ClosedXML.0.93.1\lib\net46\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.7.2.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.2.7.2\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="Entidades">
+      <HintPath>..\Entidades\obj\Debug\Entidades.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelNumberFormat, Version=1.0.3.0, Culture=neutral, PublicKeyToken=23c6f5d73be07eca, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelNumberFormat.1.0.3\lib\net20\ExcelNumberFormat.dll</HintPath>
+    </Reference>
+    <Reference Include="FastMember.Signed, Version=1.3.0.0, Culture=neutral, PublicKeyToken=9e8f22703bef9a29, processorArchitecture=MSIL">
+      <HintPath>..\packages\FastMember.Signed.1.3.0\lib\net45\FastMember.Signed.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data">
+      <HintPath>..\packages\MySql.Data.8.0.12\lib\net452\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing.Common, Version=4.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Drawing.Common.4.5.1\lib\net461\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="Xceed.Words.NET">
+      <HintPath>..\packages\DocX.1.2.1\lib\Xceed.Words.NET.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Catalogo\FormCatalogo_Legajo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogo\FormCatalogo_Legajo.Designer.cs">
+      <DependentUpon>FormCatalogo_Legajo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrincipal.Designer.cs">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogo\FormCatalogo_Banco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogo\FormCatalogo_Banco.Designer.cs">
+      <DependentUpon>FormCatalogo_Banco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogo\FormCatalogo_CategoriaTrabajo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogo\FormCatalogo_CategoriaTrabajo.Designer.cs">
+      <DependentUpon>FormCatalogo_CategoriaTrabajo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogo\FormCatalogo_Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogo\FormCatalogo_Cliente.Designer.cs">
+      <DependentUpon>FormCatalogo_Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogo\FormCatalogo_Venta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogo\FormCatalogo_Venta.Designer.cs">
+      <DependentUpon>FormCatalogo_Venta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogo\FormCatalogo_ConceptoSueldo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogo\FormCatalogo_ConceptoSueldo.Designer.cs">
+      <DependentUpon>FormCatalogo_ConceptoSueldo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogo\FormCatalogo_Articulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogo\FormCatalogo_Articulo.Designer.cs">
+      <DependentUpon>FormCatalogo_Articulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogo\FormCatalogo_ContratoTrabajo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogo\FormCatalogo_ContratoTrabajo.Designer.cs">
+      <DependentUpon>FormCatalogo_ContratoTrabajo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogo\FormCatalogo_Proveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogo\FormCatalogo_Proveedor.Designer.cs">
+      <DependentUpon>FormCatalogo_Proveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogo\FormCatalogo_Compra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogo\FormCatalogo_Compra.Designer.cs">
+      <DependentUpon>FormCatalogo_Compra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogo\FormCatalogo_ObraSocial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogo\FormCatalogo_ObraSocial.Designer.cs">
+      <DependentUpon>FormCatalogo_ObraSocial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogo\FormCatalogo_PerfilLaboral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogo\FormCatalogo_PerfilLaboral.Designer.cs">
+      <DependentUpon>FormCatalogo_PerfilLaboral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Catalogo\FormCatalogo_TipoNovedadNomina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Catalogo\FormCatalogo_TipoNovedadNomina.Designer.cs">
+      <DependentUpon>FormCatalogo_TipoNovedadNomina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modal\FormNotificacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modal\FormNotificacion.Designer.cs">
+      <DependentUpon>FormNotificacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Compras\FormFacturaAPagar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Compras\FormFacturaAPagar.Designer.cs">
+      <DependentUpon>FormFacturaAPagar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Compras\FormProveedorCtaCte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Compras\FormProveedorCtaCte.Designer.cs">
+      <DependentUpon>FormProveedorCtaCte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Compras\FormOrdenCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Compras\FormOrdenCompra.Designer.cs">
+      <DependentUpon>FormOrdenCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Contabilidad\FormCentroCosto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Contabilidad\FormCentroCosto.Designer.cs">
+      <DependentUpon>FormCentroCosto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Contabilidad\FormAsientoManual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Contabilidad\FormAsientoManual.Designer.cs">
+      <DependentUpon>FormAsientoManual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Contabilidad\FormConsumoCentroCosto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Contabilidad\FormConsumoCentroCosto.Designer.cs">
+      <DependentUpon>FormConsumoCentroCosto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Contabilidad\FormEstadoFinanciero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Contabilidad\FormEstadoFinanciero.Designer.cs">
+      <DependentUpon>FormEstadoFinanciero.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Contabilidad\FormRentabilidadCentroCosto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Contabilidad\FormRentabilidadCentroCosto.Designer.cs">
+      <DependentUpon>FormRentabilidadCentroCosto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Contabilidad\FormResumenAsientoSueldo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Contabilidad\FormResumenAsientoSueldo.Designer.cs">
+      <DependentUpon>FormResumenAsientoSueldo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Contabilidad\FormEstadoResultados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Contabilidad\FormEstadoResultados.Designer.cs">
+      <DependentUpon>FormEstadoResultados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_RRHH\FormResumenRelevanteLegajo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_RRHH\FormResumenRelevanteLegajo.Designer.cs">
+      <DependentUpon>FormResumenRelevanteLegajo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_RRHH\FormBusquedaPostulante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_RRHH\FormBusquedaPostulante.Designer.cs">
+      <DependentUpon>FormBusquedaPostulante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_RRHH\FormCapacitacionLaboral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_RRHH\FormCapacitacionLaboral.Designer.cs">
+      <DependentUpon>FormCapacitacionLaboral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_RRHH\FormSueldo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_RRHH\FormSueldo.Designer.cs">
+      <DependentUpon>FormSueldo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_RRHH\FormNovedadNomina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_RRHH\FormNovedadNomina.Designer.cs">
+      <DependentUpon>FormNovedadNomina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_RRHH\FormCursoInduccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_RRHH\FormCursoInduccion.Designer.cs">
+      <DependentUpon>FormCursoInduccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_RRHH\FormCursoIzaje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_RRHH\FormCursoIzaje.Designer.cs">
+      <DependentUpon>FormCursoIzaje.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_RRHH\FormExamenMedico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_RRHH\FormExamenMedico.Designer.cs">
+      <DependentUpon>FormExamenMedico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_RRHH\FormContrato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_RRHH\FormContrato.Designer.cs">
+      <DependentUpon>FormContrato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_RRHH\FormEntrevista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_RRHH\FormEntrevista.Designer.cs">
+      <DependentUpon>FormEntrevista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_RRHH\FormLegajo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_RRHH\FormLegajo.Designer.cs">
+      <DependentUpon>FormLegajo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_RRHH\FormLegajoDocumentacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_RRHH\FormLegajoDocumentacion.Designer.cs">
+      <DependentUpon>FormLegajoDocumentacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_RRHH\FormLegajoCurriculumVitae.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_RRHH\FormLegajoCurriculumVitae.Designer.cs">
+      <DependentUpon>FormLegajoCurriculumVitae.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_RRHH\FormLegajoLaboral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_RRHH\FormLegajoLaboral.Designer.cs">
+      <DependentUpon>FormLegajoLaboral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_RRHH\FormLegajoTalle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_RRHH\FormLegajoTalle.Designer.cs">
+      <DependentUpon>FormLegajoTalle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_RRHH\FormSindicato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_RRHH\FormSindicato.Designer.cs">
+      <DependentUpon>FormSindicato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_RRHH\NavegacionRRHH.cs" />
+    <Compile Include="Modulo_Tesoreria\FormConciliacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Tesoreria\FormConciliacion.Designer.cs">
+      <DependentUpon>FormConciliacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Tesoreria\FormPagoOtro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Tesoreria\FormPagoOtro.Designer.cs">
+      <DependentUpon>FormPagoOtro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Tesoreria\FormPagoProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Tesoreria\FormPagoProveedor.Designer.cs">
+      <DependentUpon>FormPagoProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Compras\FormCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Compras\FormCompra.Designer.cs">
+      <DependentUpon>FormCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Contabilidad\FormResumenAsientoVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Contabilidad\FormResumenAsientoVenta.Designer.cs">
+      <DependentUpon>FormResumenAsientoVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Contabilidad\FormResumenAsientoCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Contabilidad\FormResumenAsientoCompra.Designer.cs">
+      <DependentUpon>FormResumenAsientoCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Contabilidad\FormBalanceSumasSaldos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Contabilidad\FormBalanceSumasSaldos.Designer.cs">
+      <DependentUpon>FormBalanceSumasSaldos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Contabilidad\FormLibroMayor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Contabilidad\FormLibroMayor.Designer.cs">
+      <DependentUpon>FormLibroMayor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Contabilidad\FormLibroDiario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Contabilidad\FormLibroDiario.Designer.cs">
+      <DependentUpon>FormLibroDiario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Tesoreria\FormFondo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Tesoreria\FormFondo.Designer.cs">
+      <DependentUpon>FormFondo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Tesoreria\FormPagoNomina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Tesoreria\FormPagoNomina.Designer.cs">
+      <DependentUpon>FormPagoNomina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Tesoreria\FormCobranza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Tesoreria\FormCobranza.Designer.cs">
+      <DependentUpon>FormCobranza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Tesoreria\FormMovimientoFondo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Tesoreria\FormMovimientoFondo.Designer.cs">
+      <DependentUpon>FormMovimientoFondo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Impuestos\FormLibroIVA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Impuestos\FormLibroIVA.Designer.cs">
+      <DependentUpon>FormLibroIVA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Compras\FormProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Compras\FormProveedor.Designer.cs">
+      <DependentUpon>FormProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Impuestos\FormRG36852014.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Impuestos\FormRG36852014.Designer.cs">
+      <DependentUpon>FormRG36852014.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Contabilidad\FormPlanDeCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Contabilidad\FormPlanDeCuenta.Designer.cs">
+      <DependentUpon>FormPlanDeCuenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Inventario\FormArticulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Inventario\FormArticulo.Designer.cs">
+      <DependentUpon>FormArticulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Inventario\FormMovimientoStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Inventario\FormMovimientoStock.Designer.cs">
+      <DependentUpon>FormMovimientoStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Inventario\FormFormularioR29911.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Inventario\FormFormularioR29911.Designer.cs">
+      <DependentUpon>FormFormularioR29911.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Inventario\FormSuministracionIEPP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Inventario\FormSuministracionIEPP.Designer.cs">
+      <DependentUpon>FormSuministracionIEPP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Inventario\FormConsumoStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Inventario\FormConsumoStock.Designer.cs">
+      <DependentUpon>FormConsumoStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Inventario\FormControlStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Inventario\FormControlStock.Designer.cs">
+      <DependentUpon>FormControlStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Tesoreria\FormChequeAPagar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Tesoreria\FormChequeAPagar.Designer.cs">
+      <DependentUpon>FormChequeAPagar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Ventas\FormCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Ventas\FormCliente.Designer.cs">
+      <DependentUpon>FormCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Ventas\FormFacturaACobrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Ventas\FormFacturaACobrar.Designer.cs">
+      <DependentUpon>FormFacturaACobrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Ventas\FormCtaCteCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Ventas\FormCtaCteCliente.Designer.cs">
+      <DependentUpon>FormCtaCteCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modulo_Ventas\FormVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modulo_Ventas\FormVenta.Designer.cs">
+      <DependentUpon>FormVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\FormAlerta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\FormAlerta.Designer.cs">
+      <DependentUpon>FormAlerta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\FormOpcionGeneral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\FormOpcionGeneral.Designer.cs">
+      <DependentUpon>FormOpcionGeneral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\FormMiEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\FormMiEmpresa.Designer.cs">
+      <DependentUpon>FormMiEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\FormUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\FormUsuario.Designer.cs">
+      <DependentUpon>FormUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\FormAcceso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\FormAcceso.Designer.cs">
+      <DependentUpon>FormAcceso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\FormAccesoRecuperacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\FormAccesoRecuperacion.Designer.cs">
+      <DependentUpon>FormAccesoRecuperacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\FormAcercaDe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\FormAcercaDe.Designer.cs">
+      <DependentUpon>FormAcercaDe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\FormAuditoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\FormAuditoria.Designer.cs">
+      <DependentUpon>FormAuditoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sistema\FormHerramienta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sistema\FormHerramienta.Designer.cs">
+      <DependentUpon>FormHerramienta.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Catalogo\FormCatalogo_CategoriaTrabajo.resx">
+      <DependentUpon>FormCatalogo_CategoriaTrabajo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogo\FormCatalogo_PerfilLaboral.resx">
+      <DependentUpon>FormCatalogo_PerfilLaboral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogo\FormCatalogo_Legajo.resx">
+      <DependentUpon>FormCatalogo_Legajo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogo\FormCatalogo_Articulo.resx">
+      <DependentUpon>FormCatalogo_Articulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogo\FormCatalogo_Cliente.resx">
+      <DependentUpon>FormCatalogo_Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogo\FormCatalogo_Venta.resx">
+      <DependentUpon>FormCatalogo_Venta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogo\FormCatalogo_Compra.resx">
+      <DependentUpon>FormCatalogo_Compra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Catalogo\FormCatalogo_Proveedor.resx">
+      <DependentUpon>FormCatalogo_Proveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modal\FormNotificacion.resx">
+      <DependentUpon>FormNotificacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Compras\FormFacturaAPagar.resx">
+      <DependentUpon>FormFacturaAPagar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Compras\FormProveedorCtaCte.resx">
+      <DependentUpon>FormProveedorCtaCte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Compras\FormOrdenCompra.resx">
+      <DependentUpon>FormOrdenCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Contabilidad\FormCentroCosto.resx">
+      <DependentUpon>FormCentroCosto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Contabilidad\FormAsientoManual.resx">
+      <DependentUpon>FormAsientoManual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Contabilidad\FormConsumoCentroCosto.resx">
+      <DependentUpon>FormConsumoCentroCosto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Contabilidad\FormEstadoFinanciero.resx">
+      <DependentUpon>FormEstadoFinanciero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Contabilidad\FormRentabilidadCentroCosto.resx">
+      <DependentUpon>FormRentabilidadCentroCosto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Contabilidad\FormResumenAsientoSueldo.resx">
+      <DependentUpon>FormResumenAsientoSueldo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Contabilidad\FormEstadoResultados.resx">
+      <DependentUpon>FormEstadoResultados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_RRHH\FormResumenRelevanteLegajo.resx">
+      <DependentUpon>FormResumenRelevanteLegajo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_RRHH\FormBusquedaPostulante.resx">
+      <DependentUpon>FormBusquedaPostulante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_RRHH\FormCapacitacionLaboral.resx">
+      <DependentUpon>FormCapacitacionLaboral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_RRHH\FormSueldo.resx">
+      <DependentUpon>FormSueldo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_RRHH\FormNovedadNomina.resx">
+      <DependentUpon>FormNovedadNomina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_RRHH\FormCursoInduccion.resx">
+      <DependentUpon>FormCursoInduccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_RRHH\FormCursoIzaje.resx">
+      <DependentUpon>FormCursoIzaje.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_RRHH\FormExamenMedico.resx">
+      <DependentUpon>FormExamenMedico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_RRHH\FormContrato.resx">
+      <DependentUpon>FormContrato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_RRHH\FormEntrevista.resx">
+      <DependentUpon>FormEntrevista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_RRHH\FormLegajo.resx">
+      <DependentUpon>FormLegajo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_RRHH\FormLegajoDocumentacion.resx">
+      <DependentUpon>FormLegajoDocumentacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_RRHH\FormLegajoCurriculumVitae.resx">
+      <DependentUpon>FormLegajoCurriculumVitae.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_RRHH\FormLegajoLaboral.resx">
+      <DependentUpon>FormLegajoLaboral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_RRHH\FormLegajoTalle.resx">
+      <DependentUpon>FormLegajoTalle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_RRHH\FormSindicato.resx">
+      <DependentUpon>FormSindicato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Tesoreria\FormConciliacion.resx">
+      <DependentUpon>FormConciliacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Tesoreria\FormPagoOtro.resx">
+      <DependentUpon>FormPagoOtro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Tesoreria\FormPagoProveedor.resx">
+      <DependentUpon>FormPagoProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Compras\FormCompra.resx">
+      <DependentUpon>FormCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Contabilidad\FormResumenAsientoVenta.resx">
+      <DependentUpon>FormResumenAsientoVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Contabilidad\FormResumenAsientoCompra.resx">
+      <DependentUpon>FormResumenAsientoCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Contabilidad\FormBalanceSumasSaldos.resx">
+      <DependentUpon>FormBalanceSumasSaldos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Contabilidad\FormLibroMayor.resx">
+      <DependentUpon>FormLibroMayor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Contabilidad\FormLibroDiario.resx">
+      <DependentUpon>FormLibroDiario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Tesoreria\FormFondo.resx">
+      <DependentUpon>FormFondo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Tesoreria\FormPagoNomina.resx">
+      <DependentUpon>FormPagoNomina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Tesoreria\FormCobranza.resx">
+      <DependentUpon>FormCobranza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Tesoreria\FormMovimientoFondo.resx">
+      <DependentUpon>FormMovimientoFondo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Impuestos\FormLibroIVA.resx">
+      <DependentUpon>FormLibroIVA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Compras\FormProveedor.resx">
+      <DependentUpon>FormProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Impuestos\FormRG36852014.resx">
+      <DependentUpon>FormRG36852014.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Contabilidad\FormPlanDeCuenta.resx">
+      <DependentUpon>FormPlanDeCuenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Inventario\FormArticulo.resx">
+      <DependentUpon>FormArticulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Inventario\FormMovimientoStock.resx">
+      <DependentUpon>FormMovimientoStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Inventario\FormFormularioR29911.resx">
+      <DependentUpon>FormFormularioR29911.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Inventario\FormSuministracionIEPP.resx">
+      <DependentUpon>FormSuministracionIEPP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Inventario\FormConsumoStock.resx">
+      <DependentUpon>FormConsumoStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Inventario\FormControlStock.resx">
+      <DependentUpon>FormControlStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Tesoreria\FormChequeAPagar.resx">
+      <DependentUpon>FormChequeAPagar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Ventas\FormCliente.resx">
+      <DependentUpon>FormCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Ventas\FormFacturaACobrar.resx">
+      <DependentUpon>FormFacturaACobrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Ventas\FormCtaCteCliente.resx">
+      <DependentUpon>FormCtaCteCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modulo_Ventas\FormVenta.resx">
+      <DependentUpon>FormVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\FormAlerta.resx">
+      <DependentUpon>FormAlerta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\FormOpcionGeneral.resx">
+      <DependentUpon>FormOpcionGeneral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\FormMiEmpresa.resx">
+      <DependentUpon>FormMiEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\FormUsuario.resx">
+      <DependentUpon>FormUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\FormAcceso.resx">
+      <DependentUpon>FormAcceso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\FormAccesoRecuperacion.resx">
+      <DependentUpon>FormAccesoRecuperacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\FormAcercaDe.resx">
+      <DependentUpon>FormAcercaDe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\FormAuditoria.resx">
+      <DependentUpon>FormAuditoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sistema\FormHerramienta.resx">
+      <DependentUpon>FormHerramienta.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="DiagramaCapaPresentacion.cd" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Biblioteca\Biblioteca.csproj">
+      <Project>{19ced05a-f48a-45a4-ba32-1d4da9d8cf94}</Project>
+      <Name>Biblioteca</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CapaNegocio\CapaNegocio.csproj">
+      <Project>{ae68913c-3bd4-4d8d-977b-2b81c870a12c}</Project>
+      <Name>CapaNegocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_acept32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_add20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_delete32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_excel32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_find32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_insert32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_paginacion_anterior.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_paginacion_anterior1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_paginacion_final.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_paginacion_final1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_paginacion_inicial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_paginacion_inicial1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_paginacion_posterior.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_paginacion_posterior1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_remove20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_setup32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_undo32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_word32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_about.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+    <None Include="Resources\icon_report32.png" />
+    <None Include="Resources\icon_printer.png" />
+    <None Include="Resources\icon_menu_add.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

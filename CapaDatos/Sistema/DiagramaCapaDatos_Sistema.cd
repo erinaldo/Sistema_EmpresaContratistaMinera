@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="CapaDatos.Sistema.D_Alerta" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="3.75" />
+    <Members>
+      <Field Name="ACTUALIZAR" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="ELIMINAR" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="INSERTAR" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ACTUALIZAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ELIMINAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_INSERTAR" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+      <Field Name="WHERE3" Hidden="true" />
+      <Field Name="WHERE4" Hidden="true" />
+      <Field Name="WHERE5" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEEAAACgAAQAEAACAgIAAAAAAEQBBAgAACoABAAA=</HashCode>
+      <FileName>Sistema\D_Alerta.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.Sistema.D_Auditoria" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.5" Width="3.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="INSERTAR" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_INSERTAR" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT1" Hidden="true" />
+      <Field Name="SELECT2" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+      <Field Name="WHERE3" Hidden="true" />
+      <Field Name="WHERE4" Hidden="true" />
+      <Field Name="WHERE5" Hidden="true" />
+      <Field Name="WHERE6" Hidden="true" />
+      <Field Name="WHERE7" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEBAAACAAAQAAAAAQgAABEAAAAQMBAgAAAoABAAA=</HashCode>
+      <FileName>Sistema\D_Auditoria.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.Sistema.D_CredencialFTP" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="0.5" Width="3.25" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="SELECT" Hidden="true" />
+      <Field Name="WHERE" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAQAAAAAAgIAAAAAAAABAAAAAAoAAAAA=</HashCode>
+      <FileName>Sistema\D_CredencialFTP.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.Sistema.D_Herramienta" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="2.5" Width="3.25" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAAAAAIAAAIA=</HashCode>
+      <FileName>Sistema\D_Herramienta.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.Sistema.D_MiEmpresa" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="4.5" Width="3.25" />
+    <Members>
+      <Field Name="ACTUALIZAR" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ACTUALIZAR" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACgAAQAAAACAgIAAAAAAAQBAAAAACoABAAA=</HashCode>
+      <FileName>Sistema\D_MiEmpresa.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.Sistema.D_Monitor" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="6.75" Width="3.25" />
+    <Members>
+      <Field Name="ACTUALIZAR_CURRICULUMVITAE" Hidden="true" />
+      <Field Name="ACTUALIZAR_CURSOINDUCCION" Hidden="true" />
+      <Field Name="ACTUALIZAR_CURSOIZAJE" Hidden="true" />
+      <Field Name="ACTUALIZAR_EXAMENMEDICO" Hidden="true" />
+      <Field Name="ALERTAR_ANTECEDENTES" Hidden="true" />
+      <Field Name="ALERTAR_ARTICULO_CRITICO_A1" Hidden="true" />
+      <Field Name="ALERTAR_ARTICULO_CRITICO_A2" Hidden="true" />
+      <Field Name="ALERTAR_ARTICULO_MINIMO_A1" Hidden="true" />
+      <Field Name="ALERTAR_ARTICULO_MINIMO_A2" Hidden="true" />
+      <Field Name="ALERTAR_COBRO" Hidden="true" />
+      <Field Name="ALERTAR_CURSOINDUCCION" Hidden="true" />
+      <Field Name="ALERTAR_CURSOIZAJE" Hidden="true" />
+      <Field Name="ALERTAR_ENTREVISTA" Hidden="true" />
+      <Field Name="ALERTAR_EXAMENMEDICO" Hidden="true" />
+      <Field Name="ALERTAR_LICENCIACONDUCIR" Hidden="true" />
+      <Field Name="ALERTAR_PAGO" Hidden="true" />
+      <Field Name="CADUCAR_ALERTA" Hidden="true" />
+      <Field Name="CAPTURAR_ANTECEDENTES" Hidden="true" />
+      <Field Name="CAPTURAR_ARTICULO_CRITICO_A1" Hidden="true" />
+      <Field Name="CAPTURAR_ARTICULO_CRITICO_A2" Hidden="true" />
+      <Field Name="CAPTURAR_ARTICULO_MINIMO_A1" Hidden="true" />
+      <Field Name="CAPTURAR_ARTICULO_MINIMO_A2" Hidden="true" />
+      <Field Name="CAPTURAR_COBRO" Hidden="true" />
+      <Field Name="CAPTURAR_CURSOINDUCCION" Hidden="true" />
+      <Field Name="CAPTURAR_CURSOIZAJE" Hidden="true" />
+      <Field Name="CAPTURAR_ENTREVISTA" Hidden="true" />
+      <Field Name="CAPTURAR_EXAMENMEDICO" Hidden="true" />
+      <Field Name="CAPTURAR_LICENCIACONDUCIR" Hidden="true" />
+      <Field Name="CAPTURAR_PAGO" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>YAAIAAAwACgADAcABSBC4CCAABAQAhAICACgAIIWAAA=</HashCode>
+      <FileName>Sistema\D_Monitor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.Sistema.D_OpcionGeneral" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="10.75" Width="3.25" />
+    <Members>
+      <Field Name="ACTUALIZAR" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ACTUALIZAR" Hidden="true" />
+      <Field Name="SELECT" Hidden="true" />
+      <Field Name="WHERE" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACgAAQAAAACAgIAAAAAAAABAAAAACoAAAAA=</HashCode>
+      <FileName>Sistema\D_OpcionGeneral.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.Sistema.D_Privilegio" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="6.5" Width="3.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_COLUMNA" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_COLUMNA_TEMPORAL" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAgAABAACAAAAIAAAAAAIIAQIAAAAABAAAACIAIAAA=</HashCode>
+      <FileName>Sistema\D_Privilegio.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_Usuario" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="9.75" Width="3.75" />
+    <Members>
+      <Field Name="ACTUALIZAR" Hidden="true" />
+      <Field Name="ACTUALIZAR_CONTRASENIA" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="ELIMINAR" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="INSERTAR" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ACTUALIZAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ELIMINAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_INSERTAR" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="RECUPERAR_USUARIO" Hidden="true" />
+      <Field Name="SELECT" Hidden="true" />
+      <Field Name="VALIDAR_USUARIO" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+      <Field Name="WHERE3" Hidden="true" />
+      <Field Name="WHERE4" Hidden="true" />
+      <Field Name="WHERE5" Hidden="true" />
+      <Field Name="WHERE6" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEUAAACkAAQAEAACAgIQAAAAAEQBJAgAACoABAAA=</HashCode>
+      <FileName>Sistema\D_Usuario.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

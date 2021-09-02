@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="CapaDatos.D_Articulo" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="4.5" />
+    <Members>
+      <Field Name="ACTUALIZAR" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="ELIMINAR" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="INSERTAR" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ACTUALIZAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ELIMINAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_INSERTAR" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT1" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+      <Field Name="WHERE3" Hidden="true" />
+      <Field Name="WHERE4" Hidden="true" />
+      <Field Name="WHERE5" Hidden="true" />
+      <Field Name="WHERE6" Hidden="true" />
+      <Field Name="WHERE7" Hidden="true" />
+      <Field Name="WHERE8" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEEAAACgAAQAEAACAgIAAAAEAEQIBAgAACoABAAA=</HashCode>
+      <FileName>Modulo_Inventario\D_Articulo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_ConsumoStock" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.75" Width="4.5" />
+    <Members>
+      <Field Name="ANULAR" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="INSERTAR" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ANULAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_INSERTAR" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT1" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+      <Field Name="WHERE3" Hidden="true" />
+      <Field Name="WHERE4" Hidden="true" />
+      <Field Name="WHERE5" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAAAQAAAAAAgIAAAABAAQIBAgAAAsABAAA=</HashCode>
+      <FileName>Modulo_Inventario\D_ConsumoStock.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_ConsumoStockDetalle" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="3.25" Width="4.5" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="INSERTAR" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_INSERTAR" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+      <Field Name="WHERE3" Hidden="true" />
+      <Field Name="WHERE4" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAAAQAAAAAAgIAAAAAAAQBBAgAAAoABAAA=</HashCode>
+      <FileName>Modulo_Inventario\D_ConsumoStockDetalle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_ControlStock" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="0.5" Width="4.5" />
+    <Members>
+      <Field Name="ANULAR" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="INSERTAR" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ANULAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_INSERTAR" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT1" Hidden="true" />
+      <Field Name="SELECT2" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+      <Field Name="WHERE3" Hidden="true" />
+      <Field Name="WHERE4" Hidden="true" />
+      <Field Name="WHERE5" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAAAQAAAAAAgIAAAABAAQMBAgAAAsABAAA=</HashCode>
+      <FileName>Modulo_Inventario\D_ControlStock.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_ControlStockDetalle" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="6.5" Width="4.5" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="INSERTAR" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_INSERTAR" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+      <Field Name="WHERE3" Hidden="true" />
+      <Field Name="WHERE4" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAAAQAAAAAAgIAAAAAAAQBBAgAAAoABAAA=</HashCode>
+      <FileName>Modulo_Inventario\D_ControlStockDetalle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_FormularioR29911" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="5.75" Width="4.5" />
+    <Members>
+      <Field Name="ANULAR" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="INSERTAR" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ANULAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_INSERTAR" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT1" Hidden="true" />
+      <Field Name="SELECT2" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+      <Field Name="WHERE3" Hidden="true" />
+      <Field Name="WHERE4" Hidden="true" />
+      <Field Name="WHERE5" Hidden="true" />
+      <Field Name="WHERE6" Hidden="true" />
+      <Field Name="WHERE7" Hidden="true" />
+      <Field Name="WHERE8" Hidden="true" />
+      <Field Name="WHERE9" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAAAQAAAAAAgIAAAABAAQMBAgAAAsABAAA=</HashCode>
+      <FileName>Modulo_Inventario\D_FormularioR29911.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_FormularioR29911Detalle" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="9" Width="4.5" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="INSERTAR" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_INSERTAR" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+      <Field Name="WHERE3" Hidden="true" />
+      <Field Name="WHERE4" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAAAQAAAAAAgIAAAAAAAQBBAgAAAoABAAA=</HashCode>
+      <FileName>Modulo_Inventario\D_FormularioR29911Detalle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_MovimientoStock" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="8.5" Width="4.5" />
+    <Members>
+      <Field Name="ANULAR" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="INSERTAR" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ANULAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_INSERTAR" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT1" Hidden="true" />
+      <Field Name="SELECT2" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+      <Field Name="WHERE3" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAAAQAAAAAAgIAAAABAAQMBAgAAAsABAAA=</HashCode>
+      <FileName>Modulo_Inventario\D_MovimientoStock.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_MovimientoStockDetalle" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="11.5" Width="4.5" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="INSERTAR" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_INSERTAR" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+      <Field Name="WHERE3" Hidden="true" />
+      <Field Name="WHERE4" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAAAQAAAAAAgIAAAAAAAQBBAgAAAoABAAA=</HashCode>
+      <FileName>Modulo_Inventario\D_MovimientoStockDetalle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_SuministracionIEPP" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="11.25" Width="4.5" />
+    <Members>
+      <Field Name="ANULAR" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="INSERTAR" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ANULAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_INSERTAR" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT1" Hidden="true" />
+      <Field Name="SELECT2" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+      <Field Name="WHERE3" Hidden="true" />
+      <Field Name="WHERE4" Hidden="true" />
+      <Field Name="WHERE5" Hidden="true" />
+      <Field Name="WHERE6" Hidden="true" />
+      <Field Name="WHERE7" Hidden="true" />
+      <Field Name="WHERE8" Hidden="true" />
+      <Field Name="WHERE9" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAAAQAAAAAAgIAAAABAAQMBAgAAAsABAAA=</HashCode>
+      <FileName>Modulo_Inventario\D_SuministracionIEPP.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_SuministracionIEPPDetalle" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="14" Width="4.5" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="INSERTAR" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_INSERTAR" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+      <Field Name="WHERE3" Hidden="true" />
+      <Field Name="WHERE4" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAAAQAAAAAAgIAAAAAAAQBBAgAAAoABAAA=</HashCode>
+      <FileName>Modulo_Inventario\D_SuministracionIEPPDetalle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

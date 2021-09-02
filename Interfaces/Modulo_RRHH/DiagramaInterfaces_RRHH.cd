@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Interface Name="Interfaces.IBusquedaPostulante">
+    <Position X="0.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAgAAAAA=</HashCode>
+      <FileName>Modulo_RRHH\IBusquedaPostulante.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.ICapacitacionLaboral">
+    <Position X="4" Y="0.5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAABAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_RRHH\ICapacitacionLaboral.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IContrato">
+    <Position X="9" Y="0.5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAABAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_RRHH\IContrato.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.ICursoInduccion">
+    <Position X="4" Y="2.75" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAABAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_RRHH\ICursoInduccion.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.ICursoIzaje">
+    <Position X="9" Y="5" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAABAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_RRHH\ICursoIzaje.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IEntrevista">
+    <Position X="9" Y="2.75" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAABAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_RRHH\IEntrevista.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IExamenMedico">
+    <Position X="4" Y="5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAABAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_RRHH\IExamenMedico.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.ILegajo">
+    <Position X="0.5" Y="2.25" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgABAAAAAAAABAAAACgAAAAE=</HashCode>
+      <FileName>Modulo_RRHH\ILegajo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.ILegajoCurriculumVitae">
+    <Position X="0.5" Y="8.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAAAAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_RRHH\ILegajoCurriculumVitae.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.ILegajoDocumentacion">
+    <Position X="0.5" Y="4.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAAAAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_RRHH\ILegajoDocumentacion.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.ILegajoLaboral">
+    <Position X="4" Y="7.25" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgABAAAAAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_RRHH\ILegajoLaboral.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.ILegajoTalle">
+    <Position X="0.5" Y="6.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAAAAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_RRHH\ILegajoTalle.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.INovedadNomina">
+    <Position X="9" Y="7.25" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAABAAAEBAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_RRHH\INovedadNomina.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IRelacion_LegajoCurriculumVitae_PerfilLaboral">
+    <Position X="4" Y="9.5" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABBEAAAAAAEAAAAgAAAACAAAAABAAAAAgABAAA=</HashCode>
+      <FileName>Modulo_RRHH\IRelacion_LegajoCurriculumVitae_PerfilLaboral.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IResumenRelevanteLegajo">
+    <Position X="9" Y="12" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAgAAAAA=</HashCode>
+      <FileName>Modulo_RRHH\IResumenRelevanteLegajo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.ISindicato">
+    <Position X="0.5" Y="11" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAABAAAAAAAAAAAAgAAAAAAAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_RRHH\ISindicato.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.ISueldo">
+    <Position X="9" Y="9.75" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAABAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_RRHH\ISueldo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="CapaNegocio.N_ChequeAPagar" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="0.5" Width="3.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAABACgAAAAAAAEgAAAAAAAAAAABAAAAAAAAAAI=</HashCode>
+      <FileName>Modulo_Tesoreria\N_ChequeAPagar.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_Cobranza" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="4" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAIAAAAAAAgAAAAABAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\N_Cobranza.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_CobranzaDetalle" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.5" Width="4" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAASIAAAAAAAAAgAgAAAAAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\N_CobranzaDetalle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_Conciliacion" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="3.25" Width="3.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAAAAAAAAAAAAAAAAAAAAAABgAgABAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\N_Conciliacion.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_Fondo" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="5.75" Width="3.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAAAAAAAAAAAAAAAAAAAAABAAAAAAAABAA=</HashCode>
+      <FileName>Modulo_Tesoreria\N_Fondo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_MovimientoFondo" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="6.5" Width="4" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAAAAAAAAgAAAAABIAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\N_MovimientoFondo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_PagoNomina" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="7.75" Width="3.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAAAAAAAAgAAAAABAAAABAAAACgAIAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\N_PagoNomina.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_PagoOtro" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="10.75" Width="3.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAAAAQAAAgAAAAABAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\N_PagoOtro.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_PagoProveedor" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="9.5" Width="4" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAAAAAAAAgAAAAABAAAABAAEACgAAAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\N_PagoProveedor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_PagoProveedorDetalle" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="12.5" Width="4" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAAAAAAAAgAgAAAAAAAABAAAACoAAAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\N_PagoProveedorDetalle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

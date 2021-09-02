@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Interface Name="Interfaces.IArticulo">
+    <Position X="0.5" Y="0.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAEAAAAgAAAAAEAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_Inventario\IArticulo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IConsumoStock">
+    <Position X="5" Y="0.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAABAAAABAAAAAgAAAAA=</HashCode>
+      <FileName>Modulo_Inventario\IConsumoStock.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IConsumoStockDetalle">
+    <Position X="5" Y="2.75" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAAAAAAABAAAAAgAAAAA=</HashCode>
+      <FileName>Modulo_Inventario\IConsumoStockDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IControlStock">
+    <Position X="0.5" Y="3" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAABAAAABAAAAAgAAAAA=</HashCode>
+      <FileName>Modulo_Inventario\IControlStock.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IControlStockDetalle">
+    <Position X="0.5" Y="5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAAAAAAABAAAAAgAAAAA=</HashCode>
+      <FileName>Modulo_Inventario\IControlStockDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IFormularioR29911">
+    <Position X="0.5" Y="7" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAABAAAABAAAAAgAAAAA=</HashCode>
+      <FileName>Modulo_Inventario\IFormularioR29911.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IFormularioR29911Detalle">
+    <Position X="0.5" Y="9" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAAAAAAABAAAAAgAAAAA=</HashCode>
+      <FileName>Modulo_Inventario\IFormularioR29911Detalle.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IMovimientoStock">
+    <Position X="5" Y="4.75" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAABAAAABAAAAAgAAAAA=</HashCode>
+      <FileName>Modulo_Inventario\IMovimientoStock.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IMovimientoStockDetalle">
+    <Position X="5" Y="7" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAAAAAAABAAAAAgAAAAA=</HashCode>
+      <FileName>Modulo_Inventario\IMovimientoStockDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.ISuministracionIEPP">
+    <Position X="5" Y="9" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAABAAAABAAAAAgAAAAA=</HashCode>
+      <FileName>Modulo_Inventario\ISuministracionIEPP.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.ISuministracionIEPPDetalle">
+    <Position X="0.5" Y="11" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAAAAAAABAAAAAgAAAAA=</HashCode>
+      <FileName>Modulo_Inventario\ISuministracionIEPPDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

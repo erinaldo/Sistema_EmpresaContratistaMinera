@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Interface Name="Interfaces.IChequeAPagar">
+    <Position X="0.5" Y="0.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAABAAgAAAAAAAEgAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\IChequeAPagar.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.ICobranza">
+    <Position X="4.5" Y="0.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAABAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\ICobranza.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.ICobranzaDetalle">
+    <Position X="4.5" Y="2.75" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAAAAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\ICobranzaDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IConciliacion">
+    <Position X="0.5" Y="2.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAgABAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\IConciliacion.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IFondo">
+    <Position X="0.5" Y="5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\IFondo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IMovimientoFondo">
+    <Position X="4.5" Y="4.75" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAABAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\IMovimientoFondo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IPagoNomina">
+    <Position X="0.5" Y="6.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAABAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\IPagoNomina.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IPagoOtro">
+    <Position X="0.5" Y="9" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAABAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\IPagoOtro.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IPagoProveedor">
+    <Position X="4.5" Y="7" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAABAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\IPagoProveedor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Interfaces.IPagoProveedorDetalle">
+    <Position X="4.5" Y="9.25" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAgAAAAAAAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\IPagoProveedorDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

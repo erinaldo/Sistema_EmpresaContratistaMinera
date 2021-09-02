@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="CapaNegocio.N_BusquedaPostulante" BaseTypeListCollapsed="true">
+    <Position X="9" Y="0.5" Width="3.25" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAgEAAAACAAAAAAAAAAAAAAAAAAAAABAAAAAgAAAAA=</HashCode>
+      <FileName>Modulo_RRHH\N_BusquedaPostulante.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_CapacitacionLaboral" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="4.25" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAAAAAAAAgAAAAABCAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_RRHH\N_CapacitacionLaboral.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_Contrato" BaseTypeListCollapsed="true">
+    <Position X="5" Y="0.5" Width="3.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAAAAAAAAgAAAAABAABABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_RRHH\N_Contrato.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_CursoInduccion" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.5" Width="4.25" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAAAAAAAAgAAAAABAAAABAAAACgAAAAI=</HashCode>
+      <FileName>Modulo_RRHH\N_CursoInduccion.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_CursoIzaje" BaseTypeListCollapsed="true">
+    <Position X="5" Y="3.5" Width="3.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>BAAAEAAAACIAAAAAAAAAgAAAAABAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_RRHH\N_CursoIzaje.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_Entrevista" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="12.75" Width="4.25" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>gAAAEAAAACIAAAAAAAAAgAAAAABAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_RRHH\N_Entrevista.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_ExamenMedico" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="6.5" Width="4.25" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AEAAEAAAACIAAAAAAAAAgAAAAABAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_RRHH\N_ExamenMedico.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_Legajo" BaseTypeListCollapsed="true">
+    <Position X="9" Y="2.75" Width="3.25" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAiIAAAAAAAAAgABAAAAAAAABAAAACgAAAAE=</HashCode>
+      <FileName>Modulo_RRHH\N_Legajo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_LegajoCurriculumVitae" BaseTypeListCollapsed="true">
+    <Position X="5" Y="12.25" Width="3.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAEAAAAAAgAAAAAAAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_RRHH\N_LegajoCurriculumVitae.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_LegajoDocumentacion" BaseTypeListCollapsed="true">
+    <Position X="5" Y="6.5" Width="3.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAAAAAAAAgAAAAAAAAAABCAAACgAAAAA=</HashCode>
+      <FileName>Modulo_RRHH\N_LegajoDocumentacion.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_LegajoLaboral" BaseTypeListCollapsed="true">
+    <Position X="5" Y="9.25" Width="3.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAIEAAAACIAAAAAAAAAgABAAAAAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_RRHH\N_LegajoLaboral.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_LegajoTalle" BaseTypeListCollapsed="true">
+    <Position X="9" Y="6" Width="3.25" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAICIAAAAAAAAAgAAAAAAAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_RRHH\N_LegajoTalle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_NovedadNomina" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="9.5" Width="4.25" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAAAAAAAAgAAIAABAAAEBAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_RRHH\N_NovedadNomina.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_Relacion_LegajoCurriculumVitae_PerfilLaboral" BaseTypeListCollapsed="true">
+    <Position X="5" Y="15" Width="7.25" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAABBECIAAAAMAAAAgAAAACAAAAABAAAAAgABAAA=</HashCode>
+      <FileName>Modulo_RRHH\N_Relacion_LegajoCurriculumVitae_PerfilLaboral.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_ResumenRelevanteLegajo" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="15.75" Width="4.25" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAAAAAAAAAAAAAAAAAAAAAJAAAAAgAAAAA=</HashCode>
+      <FileName>Modulo_RRHH\N_ResumenRelevanteLegajo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_Sindicato" BaseTypeListCollapsed="true">
+    <Position X="9" Y="8.75" Width="3.25" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAABACIEAAAAAAAAgAAAAAAAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_RRHH\N_Sindicato.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.N_Sueldo" BaseTypeListCollapsed="true">
+    <Position X="9" Y="11.75" Width="3.25" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAAAAACAAgAAAAABAAAABAAAACgAAAAA=</HashCode>
+      <FileName>Modulo_RRHH\N_Sueldo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

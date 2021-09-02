@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="CapaNegocio.Sistema.N_Alerta" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="3.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACIAAAAEAAAAgAAAAAAAAAABAAAACgAgAAA=</HashCode>
+      <FileName>Sistema\N_Alerta.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.Sistema.N_Auditoria" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="0.5" Width="5.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAFBAAACIAAAAAAAAAgAABAAAAAAABAAAAAgAAAAA=</HashCode>
+      <FileName>Sistema\N_Auditoria.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.Sistema.N_Conexion" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="3.5" Width="2.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAIAAAAAAAIAAAAA=</HashCode>
+      <FileName>Sistema\N_Conexion.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.Sistema.N_CredencialFTP" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="3.5" Width="2.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAEAAAAAAgAAAAA=</HashCode>
+      <FileName>Sistema\N_CredencialFTP.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.Sistema.N_Herramienta" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="7.25" Width="2.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Sistema\N_Herramienta.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.Sistema.N_MiEmpresa" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="5.25" Width="2.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAIAAAAAACgAAAAA=</HashCode>
+      <FileName>Sistema\N_MiEmpresa.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.Sistema.N_Monitor" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.5" Width="3.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgACAADAAAAABAACAAABAAAhAAAgCAAAAQAAA=</HashCode>
+      <FileName>Sistema\N_Monitor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.Sistema.N_OpcionGeneral" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="5.25" Width="2.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAQAAAACgAAAAA=</HashCode>
+      <FileName>Sistema\N_OpcionGeneral.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.Sistema.N_Privilegio" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="7.25" Width="2.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAgAABAACIAAAAAAAAAAAIAQIAAAAABAAAACEAAAAA=</HashCode>
+      <FileName>Sistema\N_Privilegio.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaNegocio.Sistema.N_Usuario" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="7.25" Width="3.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAIEAAAACMAAAAEAAAAgAAAAAAAAAAJAAAACgAAAAA=</HashCode>
+      <FileName>Sistema\N_Usuario.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

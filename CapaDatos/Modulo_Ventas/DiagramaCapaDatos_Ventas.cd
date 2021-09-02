@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="CapaDatos.D_Cliente" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="0.5" Width="3.75" />
+    <Members>
+      <Field Name="ACTUALIZAR" Hidden="true" />
+      <Field Name="ACTUALIZAR_SALDO" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="ELIMINAR" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="INSERTAR" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ACTUALIZAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ELIMINAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_INSERTAR" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT1" Hidden="true" />
+      <Field Name="SELECT2" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+      <Field Name="WHERE3" Hidden="true" />
+      <Field Name="WHERE4" Hidden="true" />
+      <Field Name="WHERE5" Hidden="true" />
+      <Field Name="WHERE6" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEEAAACgAAQAEAACQgAAAEAAAEUMBAgAACoABAAE=</HashCode>
+      <FileName>Modulo_Ventas\D_Cliente.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_ClienteCtaCte" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="0.5" Width="3.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT" Hidden="true" />
+      <Field Name="SUM_DEBE" Hidden="true" />
+      <Field Name="SUM_HABER" Hidden="true" />
+      <Field Name="SUM_SALDO_ANTECESOR" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAIACAAAQAAAAAAgIAAAAAAAwBAAAAAAIEBAAA=</HashCode>
+      <FileName>Modulo_Ventas\D_ClienteCtaCte.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_FacturaACobrar" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="2.75" Width="3.75" />
+    <Members>
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT" Hidden="true" />
+      <Field Name="SUM_DEBE" Hidden="true" />
+      <Field Name="SUM_HABER" Hidden="true" />
+      <Field Name="SUM_SALDO_ANTECESOR" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACAAAQAAAAAAgIAAAAAAAwBAAAAAAIEBAAA=</HashCode>
+      <FileName>Modulo_Ventas\D_FacturaACobrar.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_Venta" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="3.75" Width="3.75" />
+    <Members>
+      <Field Name="ACTUALIZAR" Hidden="true" />
+      <Field Name="AND_EXCLUSIVO_COBRO" Hidden="true" />
+      <Field Name="ASOCIAR" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="INSERTAR" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ACTUALIZAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ASOCIAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_INSERTAR" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT1" Hidden="true" />
+      <Field Name="SELECT2" Hidden="true" />
+      <Field Name="WHERE_INFORMATIVO" Hidden="true" />
+      <Field Name="WHERE_LIBRO_IVA" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE10" Hidden="true" />
+      <Field Name="WHERE11" Hidden="true" />
+      <Field Name="WHERE12" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+      <Field Name="WHERE3" Hidden="true" />
+      <Field Name="WHERE4" Hidden="true" />
+      <Field Name="WHERE5" Hidden="true" />
+      <Field Name="WHERE6" Hidden="true" />
+      <Field Name="WHERE7" Hidden="true" />
+      <Field Name="WHERE8" Hidden="true" />
+      <Field Name="WHERE9" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAABEAAEgC8AAQAAEACAwKAAAAAAAQMBAoAACoBBAAA=</HashCode>
+      <FileName>Modulo_Ventas\D_Venta.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CapaDatos.D_VentaDetalle" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="5" Width="3.75" />
+    <Members>
+      <Field Name="ACTUALIZAR" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FROM" Hidden="true" />
+      <Field Name="INSERTAR" Hidden="true" />
+      <Field Name="LIMIT" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_ACTUALIZAR" Hidden="true" />
+      <Field Name="OBTENER_VERIFICACION_INSERTAR" Hidden="true" />
+      <Field Name="ORDER" Hidden="true" />
+      <Field Name="SELECT" Hidden="true" />
+      <Field Name="WHERE1" Hidden="true" />
+      <Field Name="WHERE2" Hidden="true" />
+      <Field Name="WHERE3" Hidden="true" />
+      <Field Name="WHERE4" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAACgAAQAAAACAgIAAAAAAAQBBAgAACoABAAA=</HashCode>
+      <FileName>Modulo_Ventas\D_VentaDetalle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

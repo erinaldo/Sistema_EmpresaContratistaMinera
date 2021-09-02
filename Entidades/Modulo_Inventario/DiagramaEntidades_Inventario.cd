@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Entidades.Articulo">
+    <Position X="0.5" Y="0.5" Width="2.75" />
+    <Members>
+      <Property Name="A1_FechaIngreso" Hidden="true" />
+      <Property Name="A1_PuntoCritico" Hidden="true" />
+      <Property Name="A1_PuntoCriticoAlertado" Hidden="true" />
+      <Property Name="A1_PuntoCriticoLimite" Hidden="true" />
+      <Property Name="A1_PuntoMaximoLimite" Hidden="true" />
+      <Property Name="A1_PuntoMinimo" Hidden="true" />
+      <Property Name="A1_PuntoMinimoAlertado" Hidden="true" />
+      <Property Name="A1_PuntoMinimoLimite" Hidden="true" />
+      <Property Name="A1_Stock" Hidden="true" />
+      <Property Name="A2_FechaIngreso" Hidden="true" />
+      <Property Name="A2_PuntoCritico" Hidden="true" />
+      <Property Name="A2_PuntoCriticoAlertado" Hidden="true" />
+      <Property Name="A2_PuntoCriticoLimite" Hidden="true" />
+      <Property Name="A2_PuntoMaximoLimite" Hidden="true" />
+      <Property Name="A2_PuntoMinimo" Hidden="true" />
+      <Property Name="A2_PuntoMinimoAlertado" Hidden="true" />
+      <Property Name="A2_PuntoMinimoLimite" Hidden="true" />
+      <Property Name="A2_Stock" Hidden="true" />
+      <Property Name="CodigoBarras" Hidden="true" />
+      <Property Name="CostoAlicuotaIVA" Hidden="true" />
+      <Property Name="CostoBaseIVA" Hidden="true" />
+      <Property Name="CostoBruto" Hidden="true" />
+      <Property Name="CostoNeto" Hidden="true" />
+      <Property Name="Criticidad" Hidden="true" />
+      <Property Name="Denominacion" Hidden="true" />
+      <Property Name="EdicionFecha" Hidden="true" />
+      <Property Name="EdicionUsuarioDenominacion" Hidden="true" />
+      <Property Name="EdicionUsuarioId" Hidden="true" />
+      <Property Name="Estado" Hidden="true" />
+      <Property Name="Id" Hidden="true" />
+      <Property Name="MargenBruto" Hidden="true" />
+      <Property Name="PrecioBruto" Hidden="true" />
+      <Property Name="StockGlobal" Hidden="true" />
+      <Property Name="Unidad" Hidden="true" />
+      <Property Name="Utilidad" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>MCCKBWAIAAQgAAAwA4BgIFAHQdAJmAAIw0oCIAGREAg=</HashCode>
+      <FileName>Modulo_Inventario\Articulo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.ConsumoStock">
+    <Position X="3.5" Y="0.5" Width="2.75" />
+    <Members>
+      <Property Name="CentroCosto" Hidden="true" />
+      <Property Name="Deposito" Hidden="true" />
+      <Property Name="EdicionFecha" Hidden="true" />
+      <Property Name="EdicionUsuarioDenominacion" Hidden="true" />
+      <Property Name="EdicionUsuarioId" Hidden="true" />
+      <Property Name="Estado" Hidden="true" />
+      <Property Name="Fecha" Hidden="true" />
+      <Property Name="Id" Hidden="true" />
+      <Property Name="Observacion" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAADBAAAAIgAAAEQAABAACAAAEACAAAEAAAAIAAQEAo=</HashCode>
+      <FileName>Modulo_Inventario\ConsumoStock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.ConsumoStockDetalle">
+    <Position X="6.5" Y="0.5" Width="3.25" />
+    <Members>
+      <Property Name="Consumo" Hidden="true" />
+      <Property Name="ConsumoStock" Hidden="true" />
+      <Property Name="CostoBruto" Hidden="true" />
+      <Property Name="CostoNeto" Hidden="true" />
+      <Property Name="Denominacion" Hidden="true" />
+      <Property Name="Desecho" Hidden="true" />
+      <Property Name="Id" Hidden="true" />
+      <Property Name="IdArticulo" Hidden="true" />
+      <Property Name="Unidad" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAECAGAAIAUgAAIAAABAAAFEAAAoAAAAAgAAAAABEAA=</HashCode>
+      <FileName>Modulo_Inventario\ConsumoStockDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.ControlStock">
+    <Position X="0.5" Y="8.75" Width="2.75" />
+    <Members>
+      <Property Name="Deposito" Hidden="true" />
+      <Property Name="EdicionFecha" Hidden="true" />
+      <Property Name="EdicionUsuarioDenominacion" Hidden="true" />
+      <Property Name="EdicionUsuarioId" Hidden="true" />
+      <Property Name="Estado" Hidden="true" />
+      <Property Name="Fecha" Hidden="true" />
+      <Property Name="Id" Hidden="true" />
+      <Property Name="Observacion" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAADBAAAAAgAAAEQAABAACAAAEAAAAAEAAAAIAAQEAo=</HashCode>
+      <FileName>Modulo_Inventario\ControlStock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.ControlStockDetalle">
+    <Position X="3.5" Y="3.75" Width="2.75" />
+    <Members>
+      <Property Name="ControlStock" Hidden="true" />
+      <Property Name="Deduccion" Hidden="true" />
+      <Property Name="Denominacion" Hidden="true" />
+      <Property Name="Id" Hidden="true" />
+      <Property Name="IdArticulo" Hidden="true" />
+      <Property Name="Recuento" Hidden="true" />
+      <Property Name="Stock" Hidden="true" />
+      <Property Name="Unidad" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>BAECAKAAABYAAAAAAABAAABAgAAoAAACAAAAAQABAAA=</HashCode>
+      <FileName>Modulo_Inventario\ControlStockDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.FormularioR29911">
+    <Position X="3.5" Y="7" Width="2.75" />
+    <Members>
+      <Property Name="CentroCosto" Hidden="true" />
+      <Property Name="DescripcionPuesto" Hidden="true" />
+      <Property Name="EdicionFecha" Hidden="true" />
+      <Property Name="EdicionUsuarioDenominacion" Hidden="true" />
+      <Property Name="EdicionUsuarioId" Hidden="true" />
+      <Property Name="EppPuesto" Hidden="true" />
+      <Property Name="Estado" Hidden="true" />
+      <Property Name="Fecha" Hidden="true" />
+      <Property Name="Id" Hidden="true" />
+      <Property Name="InformacionAdicional" Hidden="true" />
+      <Property Name="Legajo" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAADBAAAwIQAAAEQAABABgAAAECCAAAIAAACIAAQEAg=</HashCode>
+      <FileName>Modulo_Inventario\FormularioR29911.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.FormularioR29911Detalle">
+    <Position X="6.5" Y="3.75" Width="3.25" />
+    <Members>
+      <Property Name="Cantidad" Hidden="true" />
+      <Property Name="Certificacion" Hidden="true" />
+      <Property Name="Denominacion" Hidden="true" />
+      <Property Name="Deposito" Hidden="true" />
+      <Property Name="FechaEntrega" Hidden="true" />
+      <Property Name="FormularioR29911" Hidden="true" />
+      <Property Name="Id" Hidden="true" />
+      <Property Name="IdArticulo" Hidden="true" />
+      <Property Name="Unidad" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>QAECACEAQAwAAAAAAABAACBAAgQIAAAEAEAAAACBAAA=</HashCode>
+      <FileName>Modulo_Inventario\FormularioR29911Detalle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.MovimientoStock">
+    <Position X="0.5" Y="12" Width="2.75" />
+    <Members>
+      <Property Name="DepositoDestino" Hidden="true" />
+      <Property Name="DepositoOrigen" Hidden="true" />
+      <Property Name="EdicionFecha" Hidden="true" />
+      <Property Name="EdicionUsuarioDenominacion" Hidden="true" />
+      <Property Name="EdicionUsuarioId" Hidden="true" />
+      <Property Name="Estado" Hidden="true" />
+      <Property Name="Fecha" Hidden="true" />
+      <Property Name="FechaArribo" Hidden="true" />
+      <Property Name="Id" Hidden="true" />
+      <Property Name="Observacion" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAATBAAAAAAAAAEQgABAASAQAEAAAAAAAAQAICAQEAo=</HashCode>
+      <FileName>Modulo_Inventario\MovimientoStock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.MovimientoStockDetalle">
+    <Position X="6.5" Y="7" Width="3.25" />
+    <Members>
+      <Property Name="Cantidad" Hidden="true" />
+      <Property Name="Denominacion" Hidden="true" />
+      <Property Name="Id" Hidden="true" />
+      <Property Name="IdArticulo" Hidden="true" />
+      <Property Name="MovimientoStock" Hidden="true" />
+      <Property Name="NroSerie" Hidden="true" />
+      <Property Name="Unidad" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAECACEAAAQAAAAAEABAAABAAoAIAAAAEAAAAAABAEA=</HashCode>
+      <FileName>Modulo_Inventario\MovimientoStockDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.SuministracionIEPP">
+    <Position X="3.5" Y="10.75" Width="2.75" />
+    <Members>
+      <Property Name="CentroCosto" Hidden="true" />
+      <Property Name="EdicionFecha" Hidden="true" />
+      <Property Name="EdicionUsuarioDenominacion" Hidden="true" />
+      <Property Name="EdicionUsuarioId" Hidden="true" />
+      <Property Name="Estado" Hidden="true" />
+      <Property Name="Fecha" Hidden="true" />
+      <Property Name="Id" Hidden="true" />
+      <Property Name="Legajo" Hidden="true" />
+      <Property Name="Observacion" Hidden="true" />
+      <Property Name="TipoOperacion" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAADBAAAAIQAAAEQAABABCAABEACAAAAAAAAIAAQEEo=</HashCode>
+      <FileName>Modulo_Inventario\SuministracionIEPP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.SuministracionIEPPDetalle">
+    <Position X="6.5" Y="10" Width="3.25" />
+    <Members>
+      <Property Name="Cantidad" Hidden="true" />
+      <Property Name="Certificacion" Hidden="true" />
+      <Property Name="Denominacion" Hidden="true" />
+      <Property Name="Deposito" Hidden="true" />
+      <Property Name="Id" Hidden="true" />
+      <Property Name="IdArticulo" Hidden="true" />
+      <Property Name="Inventario" Hidden="true" />
+      <Property Name="SuministracionIEPP" Hidden="true" />
+      <Property Name="Unidad" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAECACEQAAwAAAAAAABAACBAAgAIAAAEAEAAAAABAIQ=</HashCode>
+      <FileName>Modulo_Inventario\SuministracionIEPPDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

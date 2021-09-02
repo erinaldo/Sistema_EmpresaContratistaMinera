@@ -1,0 +1,71 @@
+2019-01-03(12:29:42) Mensaje: Error-004CNX: La conexión con el Servidor ha fallado. Excepción: Unable to connect to any of the specified MySQL hosts.
+2019-01-03(09:09:15) Mensaje: Error-A012UPDATE: Imposible acceder al archivo requerido.
+No se pudo publicar la actualización del sistema.
+Verifique su conexión a internet. Excepción: Se ha terminado la conexión: Error inesperado de recepción.
+2019-01-04(09:04:10) Mensaje: Error-004CNX: La conexión con el Servidor ha fallado. Excepción: Unable to connect to any of the specified MySQL hosts.
+2019-01-04(11:56:14) Mensaje: Error-A012UPDATE: Imposible acceder al archivo requerido.
+No se pudo publicar la actualización del sistema.
+Verifique su conexión a internet. Excepción: Error en el servidor remoto: (426) Conexión cerrada; transferencia anulada.
+2019-01-04(11:59:31) Mensaje: Error-A012UPDATE: Imposible acceder al archivo requerido.
+No se pudo publicar la actualización del sistema.
+Verifique su conexión a internet. Excepción: Error en el servidor remoto: (426) Conexión cerrada; transferencia anulada.
+2019-01-05(12:00:28) Mensaje: Error-A012UPDATE: Imposible acceder al archivo requerido.
+No se pudo publicar la actualización del sistema.
+Verifique su conexión a internet. Excepción: Error en el servidor remoto: (426) Conexión cerrada; transferencia anulada.
+2019-01-05(12:19:37) Mensaje: Error-A012UPDATE: Imposible acceder al archivo requerido.
+No se pudo publicar la actualización del sistema.
+Verifique su conexión a internet. Excepción: Se ha terminado la conexión: Error inesperado de recepción.
+2019-01-05(12:28:16) Mensaje: Error-A012UPDATE: Imposible acceder al archivo requerido.
+No se pudo publicar la actualización del sistema.
+Verifique su conexión a internet. Excepción: Error en el servidor remoto: (426) Conexión cerrada; transferencia anulada.
+2019-01-05(12:29:33) Mensaje: Error-A012UPDATE: Imposible acceder al archivo requerido.
+No se pudo publicar la actualización del sistema.
+Verifique su conexión a internet. Excepción: Error en el servidor remoto: (426) Conexión cerrada; transferencia anulada.
+2019-01-05(12:42:01) Mensaje: Error-A012UPDATE: Imposible acceder al archivo requerido.
+No se pudo publicar la actualización del sistema.
+Verifique su conexión a internet. Excepción: Error en el servidor remoto: (426) Conexión cerrada; transferencia anulada.
+2019-01-05(01:25:59) Mensaje: Error-A012UPDATE: Imposible acceder al archivo requerido.
+No se pudo publicar la actualización del sistema.
+Verifique su conexión a internet. Excepción: Error en el servidor remoto: (550) Archivo no disponible (ej. no se encuentra el archivo o no se tiene acceso).
+2019-01-05(01:26:59) Mensaje: Error-A012UPDATE: Imposible acceder al archivo requerido.
+No se pudo publicar la actualización del sistema.
+Verifique su conexión a internet. Excepción: Error en el servidor remoto: (550) Archivo no disponible (ej. no se encuentra el archivo o no se tiene acceso).
+2019-01-05(01:27:46) Mensaje: Error-A012UPDATE: Imposible acceder al archivo requerido.
+No se pudo publicar la actualización del sistema.
+Verifique su conexión a internet. Excepción: Error en el servidor remoto: (550) Archivo no disponible (ej. no se encuentra el archivo o no se tiene acceso).
+2019-01-05(02:31:01) Mensaje: Error-A012UPDATE: Imposible acceder al archivo requerido.
+No se pudo publicar la actualización del sistema.
+Verifique su conexión a internet. Excepción: Error en el servidor remoto: (501) Error de sintaxis en parámetros o argumentos.
+2019-01-05(02:33:01) Mensaje: Error-A012UPDATE: Imposible acceder al archivo requerido.
+No se pudo publicar la actualización del sistema.
+Verifique su conexión a internet. Excepción: Error en el servidor remoto: (451) Error local al procesar.
+2019-01-05(02:46:10) Mensaje: Error-A012UPDATE: Imposible acceder al archivo requerido.
+No se pudo publicar la actualización del sistema.
+Verifique su conexión a internet. Excepción: Error en el servidor remoto: (426) Conexión cerrada; transferencia anulada.
+2019-01-06(02:48:48) Mensaje: Error-A012UPDATE: Imposible acceder al archivo requerido.
+No se pudo publicar la actualización del sistema.
+Verifique su conexión a internet. Excepción: Error en el servidor remoto: (451) Error local al procesar.
+2019-01-06(02:53:50) Mensaje: Error-A012UPDATE: Imposible acceder al archivo requerido.
+No se pudo publicar la actualización del sistema.
+Verifique su conexión a internet. Excepción: Error en el servidor remoto: (451) Error local al procesar.
+2019-01-06(03:17:27) Mensaje: Error-A012UPDATE: Imposible acceder al archivo requerido.
+No se pudo publicar la actualización del sistema.
+Verifique su conexión a internet. Excepción: Error en el servidor remoto: (451) Error local al procesar.
+2019-01-06(03:36:38) Mensaje: Error-A012UPDATE: Imposible acceder al archivo requerido.
+No se pudo publicar la actualización del sistema.
+Verifique su conexión a internet. Excepción: Error en el servidor remoto: (451) Error local al procesar.
+2019-01-06(03:40:51) Mensaje: Error-A012UPDATE: Imposible acceder al archivo requerido.
+No se pudo publicar la actualización del sistema.
+Verifique su conexión a internet. Excepción: Error en el servidor remoto: (451) Error local al procesar.
+2019-01-06(03:43:26) Mensaje: Error-A012UPDATE: Imposible acceder al archivo requerido.
+No se pudo publicar la actualización del sistema.
+Verifique su conexión a internet. Excepción: Error en el servidor remoto: (451) Error local al procesar.
+2019-01-06(05:00:10) Mensaje: Error-A012UPDATE: Imposible acceder al archivo requerido.
+No se pudo publicar la actualización del sistema.
+Verifique su conexión a internet. Excepción: El URI solicitado no es válido para este comando FTP.
+2019-01-06(07:53:08) Mensaje: Error-A012UPDATE: Imposible acceder al archivo requerido.
+No se pudo publicar la actualización del sistema.
+Verifique su conexión a internet. Excepción: No se puede resolver el nombre remoto: 'ftp.sersystems.tech'
+2019-01-06(08:02:48) Mensaje: Error-A012UPDATE: Imposible acceder al archivo requerido.
+No se pudo publicar la actualización del sistema.
+Verifique su conexión a internet. Excepción: No se puede resolver el nombre remoto: 'ftp.sersystems.tech'

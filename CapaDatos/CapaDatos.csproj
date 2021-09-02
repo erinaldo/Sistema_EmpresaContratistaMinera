@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9CFB7FEE-282B-4DAB-BDAB-26F39AF46304}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CapaDatos</RootNamespace>
+    <AssemblyName>CapaDatos</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Google.Protobuf, Version=3.5.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.5.1\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.12\lib\net452\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySqlBackup, Version=2.0.12.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySqlBackup.NET.2.0.12.1\lib\netstandard2.0\MySqlBackup.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Catalogo\D_Banco.cs" />
+    <Compile Include="Catalogo\D_CategoriaTrabajo.cs" />
+    <Compile Include="Modulo_Tesoreria\D_ChequeAPagar.cs" />
+    <Compile Include="Modulo_Compras\D_FacturaAPagar.cs" />
+    <Compile Include="Modulo_Contabilidad\D_AsientoCentroCostoRentabilidadCosto.cs" />
+    <Compile Include="Modulo_Contabilidad\D_RentabilidadCentroCostoDetalleImporte.cs" />
+    <Compile Include="Modulo_Contabilidad\D_RentabilidadCentroCostoDetalleCosto.cs" />
+    <Compile Include="Modulo_Contabilidad\D_RentabilidadCentroCosto.cs" />
+    <Compile Include="Modulo_Contabilidad\D_ConsumoCentroCosto.cs" />
+    <Compile Include="Modulo_Contabilidad\D_EstadoFinanciero.cs" />
+    <Compile Include="Modulo_Contabilidad\D_EstadoResultados.cs" />
+    <Compile Include="Modulo_Contabilidad\D_CentroCosto.cs" />
+    <Compile Include="Catalogo\D_ConceptoSueldo.cs" />
+    <Compile Include="Catalogo\D_ObraSocial.cs" />
+    <Compile Include="Catalogo\D_PerfilLaboral.cs" />
+    <Compile Include="Catalogo\D_TipoNovedad.cs" />
+    <Compile Include="ConexionDB.cs" />
+    <Compile Include="Modulo_Compras\D_OrdenCompra.cs" />
+    <Compile Include="Modulo_Compras\D_OrdenCompraDetalle.cs" />
+    <Compile Include="Modulo_Compras\D_ProveedorCtaCte.cs" />
+    <Compile Include="Modulo_Contabilidad\D_AsientoContable.cs" />
+    <Compile Include="Modulo_Contabilidad\D_AsientoManual.cs" />
+    <Compile Include="Modulo_Contabilidad\D_AsientoManualDetalle.cs" />
+    <Compile Include="Modulo_Contabilidad\D_ResumenAsientoSueldo.cs" />
+    <Compile Include="Modulo_RRHH\D_ResumenRelevanteLegajo.cs" />
+    <Compile Include="Modulo_RRHH\D_CapacitacionLaboral.cs" />
+    <Compile Include="Modulo_RRHH\D_BusquedaPostulante.cs" />
+    <Compile Include="Modulo_RRHH\D_Sueldo.cs" />
+    <Compile Include="Modulo_RRHH\D_NovedadNomina.cs" />
+    <Compile Include="Modulo_RRHH\D_CursoInduccion.cs" />
+    <Compile Include="Modulo_RRHH\D_CursoIzaje.cs" />
+    <Compile Include="Modulo_RRHH\D_ExamenMedico.cs" />
+    <Compile Include="Modulo_RRHH\D_Entrevista.cs" />
+    <Compile Include="Modulo_RRHH\D_Sindicato.cs" />
+    <Compile Include="Modulo_RRHH\D_LegajoCurriculumVitae.cs" />
+    <Compile Include="Modulo_RRHH\D_LegajoLaboral.cs" />
+    <Compile Include="Modulo_RRHH\D_LegajoTalle.cs" />
+    <Compile Include="Modulo_RRHH\D_LegajoDocumentacion.cs" />
+    <Compile Include="Modulo_RRHH\D_Legajo.cs" />
+    <Compile Include="Modulo_RRHH\D_Relacion_LegajoCurriculumVitae_PerfilLaboral.cs" />
+    <Compile Include="Modulo_Tesoreria\D_Conciliacion.cs" />
+    <Compile Include="Modulo_Tesoreria\D_PagoOtro.cs" />
+    <Compile Include="Modulo_Tesoreria\D_PagoProveedor.cs" />
+    <Compile Include="Modulo_Tesoreria\D_PagoProveedorDetalle.cs" />
+    <Compile Include="Modulo_Contabilidad\D_ResumenAsientoCompra.cs" />
+    <Compile Include="Modulo_Contabilidad\D_ResumenAsientoVenta.cs" />
+    <Compile Include="Modulo_Contabilidad\D_CuentaContable.cs" />
+    <Compile Include="Modulo_Contabilidad\D_LibroDiario.cs" />
+    <Compile Include="Modulo_Contabilidad\D_BalanceSumasSaldos.cs" />
+    <Compile Include="Modulo_Contabilidad\D_LibroMayor.cs" />
+    <Compile Include="Modulo_Tesoreria\D_Fondo.cs" />
+    <Compile Include="Modulo_Tesoreria\D_MovimientoFondo.cs" />
+    <Compile Include="Modulo_Tesoreria\D_PagoNomina.cs" />
+    <Compile Include="Modulo_Ventas\D_ClienteCtaCte.cs" />
+    <Compile Include="Modulo_Ventas\D_FacturaACobrar.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Modulo_Tesoreria\D_Cobranza.cs" />
+    <Compile Include="Modulo_Tesoreria\D_CobranzaDetalle.cs" />
+    <Compile Include="Modulo_Compras\D_Compra.cs" />
+    <Compile Include="Modulo_Compras\D_CompraDetalle.cs" />
+    <Compile Include="Modulo_Compras\D_Proveedor.cs" />
+    <Compile Include="Modulo_RRHH\D_Contrato.cs" />
+    <Compile Include="Modulo_Inventario\D_Articulo.cs" />
+    <Compile Include="Modulo_Inventario\D_ConsumoStock.cs" />
+    <Compile Include="Modulo_Inventario\D_ConsumoStockDetalle.cs" />
+    <Compile Include="Modulo_Inventario\D_ControlStock.cs" />
+    <Compile Include="Modulo_Inventario\D_ControlStockDetalle.cs" />
+    <Compile Include="Modulo_Inventario\D_FormularioR29911.cs" />
+    <Compile Include="Modulo_Inventario\D_FormularioR29911Detalle.cs" />
+    <Compile Include="Modulo_Inventario\D_MovimientoStock.cs" />
+    <Compile Include="Modulo_Inventario\D_MovimientoStockDetalle.cs" />
+    <Compile Include="Modulo_Inventario\D_SuministracionIEPP.cs" />
+    <Compile Include="Modulo_Inventario\D_SuministracionIEPPDetalle.cs" />
+    <Compile Include="Modulo_Ventas\D_Cliente.cs" />
+    <Compile Include="Modulo_Ventas\D_Venta.cs" />
+    <Compile Include="Modulo_Ventas\D_VentaDetalle.cs" />
+    <Compile Include="Sistema\D_Alerta.cs" />
+    <Compile Include="Sistema\D_Auditoria.cs" />
+    <Compile Include="Sistema\D_Herramienta.cs" />
+    <Compile Include="Sistema\D_CredencialFTP.cs" />
+    <Compile Include="Sistema\D_Usuario.cs" />
+    <Compile Include="Sistema\D_OpcionGeneral.cs" />
+    <Compile Include="Sistema\D_Monitor.cs" />
+    <Compile Include="Sistema\D_Privilegio.cs" />
+    <Compile Include="Sistema\D_MiEmpresa.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Catalogo\DiagramaCapaDatos_Catalogo.cd" />
+    <None Include="Modulo_Compras\DiagramaCapaDatos_Compras.cd" />
+    <None Include="Modulo_Contabilidad\DiagramaCapaDatos_Contabilidad.cd" />
+    <None Include="Modulo_Inventario\DiagramaCapaDatos_Inventario.cd" />
+    <None Include="Modulo_RRHH\DiagramaCapaDatos_RRHH.cd" />
+    <None Include="Modulo_Tesoreria\DiagramaCapaDatos_Tesoreria.cd" />
+    <None Include="Modulo_Ventas\DiagramaCapaDatos_Ventas.cd" />
+    <None Include="packages.config" />
+    <None Include="Sistema\DiagramaCapaDatos_Sistema.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Biblioteca\Biblioteca.csproj">
+      <Project>{19ced05a-f48a-45a4-ba32-1d4da9d8cf94}</Project>
+      <Name>Biblioteca</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entidades\Entidades.csproj">
+      <Project>{4345af06-3449-497d-ac47-33d1e2b1d829}</Project>
+      <Name>Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Interfaces\Interfaces.csproj">
+      <Project>{7ce1f07a-29d3-41f2-8696-15d58b28b14d}</Project>
+      <Name>Interfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

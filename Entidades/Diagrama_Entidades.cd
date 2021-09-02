@@ -1,0 +1,611 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Entidades.Catalogo.Banco" Collapsed="true">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Catalogo\Banco.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Catalogo.CatalogoBase" Collapsed="true">
+    <Position X="4.75" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAABAAAAAAAAIAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Catalogo\CatalogoBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Catalogo.CategoriaTrabajo" Collapsed="true">
+    <Position X="2.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Catalogo\CategoriaTrabajo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Catalogo.ConceptoSueldo" Collapsed="true">
+    <Position X="4" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Catalogo\ConceptoSueldo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Catalogo.ObraSocial" Collapsed="true">
+    <Position X="5.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Catalogo\ObraSocial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Catalogo.PerfilLaboral" Collapsed="true">
+    <Position X="7.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Catalogo\PerfilLaboral.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Catalogo.TipoNovedad" Collapsed="true">
+    <Position X="9.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Catalogo\TipoNovedad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Compra" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEgD0BgCAgQ0gEmQjIJAACDZDmgAQAD4AbCC6SAQEgI=</HashCode>
+      <FileName>Modulo_Compras\Compra.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.CompraDetalle" Collapsed="true">
+    <Position X="4" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECACEAAIwgAAAIEABEAABAAgAKAQAEEAAEAAABEAA=</HashCode>
+      <FileName>Modulo_Compras\CompraDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.FacturaAPagar" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAACCAAAAAAAAAAEAAAAAAIAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Modulo_Compras\FacturaAPagar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.OrdenCompra" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEACVAABAgQEgBAQgABAASARGGiAYEC4gACC4SAQEAg=</HashCode>
+      <FileName>Modulo_Compras\OrdenCompra.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.OrdenCompraDetalle" Collapsed="true">
+    <Position X="0.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIECACEAAIwgAAAIAABEAABAAgAKAQAEEAAAAIABEAA=</HashCode>
+      <FileName>Modulo_Compras\OrdenCompraDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Proveedor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EYhCTAAACiAAAABZ0ATAABIAKEwIAIAABAKhYgiREA0=</HashCode>
+      <FileName>Modulo_Compras\Proveedor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.ProveedorCtaCte" Collapsed="true">
+    <Position X="7.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAACAAAAAAAAAAAAAAAAAAIAAAAAAIBAAABAAA=</HashCode>
+      <FileName>Modulo_Compras\ProveedorCtaCte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.AsientoCentroCostoRentabilidadCosto" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IEAAAAAAQAAAAAAAAAAAAAAAgAAIEEAgAQAAAAABBAA=</HashCode>
+      <FileName>Modulo_Contabilidad\AsientoCentroCostoRentabilidadCosto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.AsientoContable" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACCgCAQgBAQAAEABBAAEEBAAAAAAAAAAAAUAAAABA=</HashCode>
+      <FileName>Modulo_Contabilidad\AsientoContable.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.AsientoManual" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACCBAABAIAAABAQgABEAAAAAEGKIEAAgAAAIAATEAg=</HashCode>
+      <FileName>Modulo_Contabilidad\AsientoManual.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.AsientoManualDetalle" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAQgAAQBAAgBBAAEEAAAAAAAAAAAAAUAAAACA=</HashCode>
+      <FileName>Modulo_Contabilidad\AsientoManualDetalle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.BalanceSumasSaldos" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBAAAAAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\BalanceSumasSaldos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.CentroCosto" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAgAAAAQgABAAAAAAEAIAAAEAAAAIAAREAA=</HashCode>
+      <FileName>Modulo_Contabilidad\CentroCosto.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.ConsumoCentroCosto" Collapsed="true">
+    <Position X="5.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAIAAAACAAIAABAAAAIEAAAAAAAEAEBAAQ=</HashCode>
+      <FileName>Modulo_Contabilidad\ConsumoCentroCosto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.CuentaContable" Collapsed="true">
+    <Position X="7.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAQIAAQgABAAAAAAEAIAACAAAIBIAAREAA=</HashCode>
+      <FileName>Modulo_Contabilidad\CuentaContable.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Entidades.EstadoFinanciero" Collapsed="true">
+    <Position X="2.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEIAAAIAEAAAQAAAAABAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\EstadoFinanciero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.EstadoResultados" Collapsed="true">
+    <Position X="4" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEIAAAIAEAAAQAAAAABAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\EstadoResultados.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.LibroDiario" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\LibroDiario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.LibroMayor" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBAAAAAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\LibroMayor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.RentabilidadCentroCosto" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAiGxQQAAIAgAAIQgAjAAwAAAEACCQEABAEEIIAQEAg=</HashCode>
+      <FileName>Modulo_Contabilidad\RentabilidadCentroCosto.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.RentabilidadCentroCostoDetalleCosto" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IEACAAAAQgAAAAAAgABAAAAAgAAIGAAgAAAAQAAABAA=</HashCode>
+      <FileName>Modulo_Contabilidad\RentabilidadCentroCostoDetalleCosto.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.RentabilidadCentroCostoDetalleImporte" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACQAIAAgAAQBAEgADAAAIAACAICAAAAAIAAIABAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\RentabilidadCentroCostoDetalleImporte.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.ResumenAsientoCompra" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\ResumenAsientoCompra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.ResumenAsientoSueldo" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\ResumenAsientoSueldo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.ResumenAsientoVenta" Collapsed="true">
+    <Position X="2.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modulo_Contabilidad\ResumenAsientoVenta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Articulo" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MCCKBWAIAAQgAAAwA4BgIFAHQdAJmAAIw0oCIAGREAg=</HashCode>
+      <FileName>Modulo_Inventario\Articulo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.ConsumoStock" Collapsed="true">
+    <Position X="7.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADBAAAAIgAAAEQAABAACAAAEACAAAEAAAAIAAQEAo=</HashCode>
+      <FileName>Modulo_Inventario\ConsumoStock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.ConsumoStockDetalle" Collapsed="true">
+    <Position X="9.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECAGAAIAUgAAIAAABAAAFEAAAoAAAAAgAAAAABEAA=</HashCode>
+      <FileName>Modulo_Inventario\ConsumoStockDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.ControlStock" Collapsed="true">
+    <Position X="2.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADBAAAAAgAAAEQAABAACAAAEAAAAAEAAAAIAAQEAo=</HashCode>
+      <FileName>Modulo_Inventario\ControlStock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.ControlStockDetalle" Collapsed="true">
+    <Position X="4" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAECAKAAABYAAAAAAABAAABAgAAoAAACAAAAAQABAAA=</HashCode>
+      <FileName>Modulo_Inventario\ControlStockDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.FormularioR29911" Collapsed="true">
+    <Position X="7.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADBAAAwIQAAAEQAABABgAAAECCAAAIAAACIAAQEAg=</HashCode>
+      <FileName>Modulo_Inventario\FormularioR29911.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.FormularioR29911Detalle" Collapsed="true">
+    <Position X="9.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAECACEAQAwAAAAAAABAACBAAgQIAAAEAEAAAACBAAA=</HashCode>
+      <FileName>Modulo_Inventario\FormularioR29911Detalle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.MovimientoStock" Collapsed="true">
+    <Position X="2.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAATBAAAAAAAAAEQgABAASAQAEAAAAAAAAQAICAQEAo=</HashCode>
+      <FileName>Modulo_Inventario\MovimientoStock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.MovimientoStockDetalle" Collapsed="true">
+    <Position X="4" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECACEAAAQAAAAAEABAAABAAoAIAAAAEAAAAAABAEA=</HashCode>
+      <FileName>Modulo_Inventario\MovimientoStockDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.SuministracionIEPP" Collapsed="true">
+    <Position X="4" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADBAAAAIQAAAEQAABABCAABEACAAAAAAAAIAAQEEo=</HashCode>
+      <FileName>Modulo_Inventario\SuministracionIEPP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.SuministracionIEPPDetalle" Collapsed="true">
+    <Position X="5.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAECACEQAAwAAAAAAABAACBAAgAIAAAEAEAAAAABAIQ=</HashCode>
+      <FileName>Modulo_Inventario\SuministracionIEPPDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.BusquedaPostulante" Collapsed="true">
+    <Position X="0.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hCQAkgAkAAQgCAAFAAAEBQBAEAAAAAKAIYACAAEEAgA=</HashCode>
+      <FileName>Modulo_RRHH\BusquedaPostulante.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.CapacitacionLaboral" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACBAAAAIQAAAAQgABABCEAAUACQAAAAAAAIgAwEAo=</HashCode>
+      <FileName>Modulo_RRHH\CapacitacionLaboral.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.Contrato" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhAiBBCAGKQAIQEQwQFABJAAAEgSwIAMAAhAKAAYEAg=</HashCode>
+      <FileName>Modulo_RRHH\Contrato.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.CursoInduccion" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASBAAAAIQAAAAQiABABCAAAEACQAAAAAEAIAAQEAo=</HashCode>
+      <FileName>Modulo_RRHH\CursoInduccion.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.CursoIzaje" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADhAAAAIRAACAQiABgBDAAAFACQAAAAAEAIAAQEAo=</HashCode>
+      <FileName>Modulo_RRHH\CursoIzaje.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.Entrevista" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgChAAAAQQIIACRgCBABBCUAEAAAAAAAIQAIAAQEAg=</HashCode>
+      <FileName>Modulo_RRHH\Entrevista.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.ExamenMedico" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAADFQAgAARQgBAaggJIBLAhBkoSAAEgAQAAKAQYEKo=</HashCode>
+      <FileName>Modulo_RRHH\ExamenMedico.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.Legajo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAoCQAAgCWAAQAAZkETAEDIADOwJAAACAAIBIgSbEIc=</HashCode>
+      <FileName>Modulo_RRHH\Legajo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.LegajoCurriculumVitae" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gUQrkAAGAAQgCAAUiADkBEAQIEAAAAGCBEACNAAWGgA=</HashCode>
+      <FileName>Modulo_RRHH\LegajoCurriculumVitae.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.LegajoDocumentacion" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAwoIiQAAEhQoARAhMACAkQAIAiQAACFKBgQEBA=</HashCode>
+      <FileName>Modulo_RRHH\LegajoDocumentacion.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.LegajoLaboral" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhgiBACCGIQAIQAQwAFABLAAAEgSwJAEAAgAIAA4EAo=</HashCode>
+      <FileName>Modulo_RRHH\LegajoLaboral.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.LegajoTalle" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAQAAAAQgIBABAAAAUCAAEAAAAAAIAAQEBA=</HashCode>
+      <FileName>Modulo_RRHH\LegajoTalle.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.NovedadNomina" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AggCREAAIKQAQACUgABABCAAAEACQEAAAAIAIFAQEAo=</HashCode>
+      <FileName>Modulo_RRHH\NovedadNomina.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.Relacion_LegajoCurriculumVitae_PerfilLaboral" Collapsed="true">
+    <Position X="2.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCACAAAAAAQAAAAAEIBABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modulo_RRHH\Relacion_LegajoCurriculumVitae_PerfilLaboral.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.ResumenRelevanteLegajo" Collapsed="true">
+    <Position X="9.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAEAEgAkAIQAAAAFAAAIBQBAEAACAAIAIYAAAAEEAAA=</HashCode>
+      <FileName>Modulo_RRHH\ResumenRelevanteLegajo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Sindicato" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QABiAAAAAAC0ACAQgCFAAAgCAEKIQAAgAAAAIAATFCA=</HashCode>
+      <FileName>Modulo_RRHH\Sindicato.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.Sueldo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABiCzAAAAYYALQAQgABABCAQAUICQIUAAAAIYJAQEAo=</HashCode>
+      <FileName>Modulo_RRHH\Sueldo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.ChequeAPagar" Collapsed="true">
+    <Position X="5.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIACAAAAEQAAAAAgBAAQIQAAAAAAABAABACg=</HashCode>
+      <FileName>Modulo_Tesoreria\ChequeAPagar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Cobranza" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEoiFBABEgiCgBARgIDAgAKQAkigoECBhCAA4wAQVsg=</HashCode>
+      <FileName>Modulo_Tesoreria\Cobranza.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.CobranzaDetalle" Collapsed="true">
+    <Position X="0.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAQAJAAAABAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\CobranzaDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Conciliacion" Collapsed="true">
+    <Position X="9.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIBAAAAAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\Conciliacion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Fondo" Collapsed="true">
+    <Position X="9.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\Fondo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.MovimientoFondo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACBAABAAAAABARgABAgAEJAEKIIEQBhCAAIAAREAg=</HashCode>
+      <FileName>Modulo_Tesoreria\MovimientoFondo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.PagoNomina" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgCBAABAISAgBAVgADAhAIBAEqCIEQBhCAAIgAQEAg=</HashCode>
+      <FileName>Modulo_Tesoreria\PagoNomina.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.PagoOtro" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgCBAABAICAgBAVgADAgAIBAEqKIEQBhCAAIgAREAg=</HashCode>
+      <FileName>Modulo_Tesoreria\PagoOtro.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.PagoProveedor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgCBAABAgCAgBAdgADAgAIBAEiAIEABhCAAYgAQEAg=</HashCode>
+      <FileName>Modulo_Tesoreria\PagoProveedor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.PagoProveedorDetalle" Collapsed="true">
+    <Position X="7.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAEABAAAEAAAAAgAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Modulo_Tesoreria\PagoProveedorDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Cliente" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAhCRAAACiAAAAAZkATAABIAKEwIAAAAAAKhYgiREAk=</HashCode>
+      <FileName>Modulo_Ventas\Cliente.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.ClienteCtaCte" Collapsed="true">
+    <Position X="4" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAACAAAAAAAAAAAAAAAAAAIAAAAAAIBAAABAAA=</HashCode>
+      <FileName>Modulo_Ventas\ClienteCtaCte.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.FacturaACobrar" Collapsed="true">
+    <Position X="5.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAQAAACAAAAAAAAAAAAAAAAAAIIAAAAAAAAAABAAA=</HashCode>
+      <FileName>Modulo_Ventas\FacturaACobrar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Venta" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEgL0BgCAgg0AElQhgLAAACYBEgAQADgALAC4QAQEEI=</HashCode>
+      <FileName>Modulo_Ventas\Venta.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.VentaDetalle" Collapsed="true">
+    <Position X="0.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIESACEAAIwAAJAAAABEAABAgkAKAAAEEAAAAAABAIA=</HashCode>
+      <FileName>Modulo_Ventas\VentaDetalle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Usuario" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEACgAoAAAQAEAASiAhgBEAAAEAAAAAAAAEAYAASEAA=</HashCode>
+      <FileName>Sistema\Usuario.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.Sistema.Alerta" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACBgAAAAAAQAAQAAJQAAAAAEAIAAAAAAAgIAARFAg=</HashCode>
+      <FileName>Sistema\Alerta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Sistema.Auditoria" Collapsed="true">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAADAAAAAAAAAAEAAABAAAAAAAAIAAACAAAACAAJAAA=</HashCode>
+      <FileName>Sistema\Auditoria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Sistema.CredencialFTP" Collapsed="true">
+    <Position X="5.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASAABAAAAAAAAAgAFAAAAABAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sistema\CredencialFTP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Sistema.MiEmpresa" Collapsed="true">
+    <Position X="9.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIBCQAAACKAAACAYEAxAABAAKEwIAIAAAACgIgiREgE=</HashCode>
+      <FileName>Sistema\MiEmpresa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entidades.Sistema.OpcionGeneral" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAACAAABEBIhFBAwrBBoECJCAEERACJRAAiCIVEQEAA=</HashCode>
+      <FileName>Sistema\OpcionGeneral.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Entidades.Sistema.Privilegio" Collapsed="true">
+    <Position X="9.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAABAAAAAAAAAAABAAAAAAAAIAAAQAAAAAAABAAA=</HashCode>
+      <FileName>Sistema\Privilegio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
