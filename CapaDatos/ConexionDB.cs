@@ -18,10 +18,8 @@ namespace CapaDatos
         {
             try
             {
-                _cadenaDeConexion = ConfigurationManager.ConnectionStrings["CNX-Empreminsa_Admin"].ConnectionString; //Consulta la cadena de conexión almacenada en el archivo app.config
-                //_cadenaDeConexion = ConfigurationManager.ConnectionStrings["CNX-Empreminsa_Admin_LocalHost"].ConnectionString; //Consulta la cadena de conexión almacenada en el archivo app.config
-                //_cadenaDeConexion = ConfigurationManager.ConnectionStrings["CNX-Empreminsa_Debug"].ConnectionString; //Consulta la cadena de conexión almacenada en el archivo app.config
-                if (String.IsNullOrWhiteSpace(_cadenaDeConexion)) throw new ArgumentNullException("ConnectionStrings"); //Verifica que la cadena de conexión sea válida
+                _cadenaDeConexion = ConfigurationManager.ConnectionStrings["CNX-_Admin"].ConnectionString; //Consulta la cadena de conexión almacenada en el archivo app.config
+                 if (String.IsNullOrWhiteSpace(_cadenaDeConexion)) throw new ArgumentNullException("ConnectionStrings"); //Verifica que la cadena de conexión sea válida
                 _conexion = new MySqlConnection(_cadenaDeConexion);
             }
             catch (ArgumentNullException e)
